@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+}
+
+h1 {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.helloWorld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    height: 50vh;
+    width: 65vw;
+    margin: 0;
+    border-radius: 2rem;
+    color: deeppink;
+    background-color: rgb(27, 27, 27);
+    border: .5rem solid deeppink;
+    box-shadow: 0 0 5rem 1rem black;
+    transition: .4s ease-in-out;
+}
+
+.helloWorld:hover {
+    color: pink;
+    cursor: pointer;
+    background-color: rgb(51, 30, 30);
+    border: .5rem solid pink;
+    transform: scale(1.05);
+}
