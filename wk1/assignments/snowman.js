@@ -65,7 +65,7 @@ function draw() {
     fill(stroke1);
     strokeWeight(25);
     rect(425, 20, 150, 100, 5);
-    fill(25, 150, 75);
+    fill(stroke2);
     strokeWeight(0);
     rect(412.5, 65, 175, 35);
     // eyes
