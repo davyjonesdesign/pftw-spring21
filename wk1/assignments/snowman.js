@@ -6,6 +6,20 @@ function setup() {
     background (155, 200, 255);
 }
 function draw() {
+    // trees
+    fill(25, 150, 75);
+    //left
+    triangle(0, 675, 350, 675, 175, 375);
+    triangle(45, 500, 305, 500, 175, 235);
+    triangle(85, 335, 265, 335, 175, 135);
+    //right
+    triangle(1000, 675, 650, 675, 825, 375);
+    triangle(955, 500, 695, 500, 825, 235);
+    triangle(915, 335, 735, 335, 825, 135);
+    // tree stumps
+    fill("#633C00")
+    rect(137.5, 675, 75, 100)
+    rect(787.5, 675, 75, 100)
     // snowman
     fill("#f1f1f1");
     strokeWeight(15)
@@ -51,6 +65,9 @@ function draw() {
     fill(stroke1);
     strokeWeight(25);
     rect(425, 20, 150, 100, 5);
+    fill(25, 150, 75);
+    strokeWeight(0);
+    rect(412.5, 65, 175, 35);
     // eyes
     stroke(stroke1);
     strokeWeight(35);
@@ -66,8 +83,8 @@ function draw() {
     arc(500, 245, 60, 40, 0, PI);
     // arms
     strokeWeight(15);
+    stroke(stroke1)
     noFill();
-    stroke(stroke1);
     line(375, 350, 200, 300);
     line(625, 350, 800, 300);
     strokeCap(ROUND);
