@@ -13,7 +13,6 @@ body {
   position: absolute;
   top: 25%;
   left: 5%;
-  cursor: crosshair;
 }
 
 h1 {
@@ -24,25 +23,23 @@ h1 {
 }
 
 p {
-    display: inline-block;
-    line-height: 2rem;
-    margin-top: 25%;
-    padding: 10px 25px 7px;
-    border-radius: 100px;
-    background-color: rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  line-height: 2rem;
+  margin-top: 25%;
+  padding: 10px 25px 7px;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.75);
 }
-
 
 a {
-    color: darkseagreen;
-    text-decoration: none;
+  color: lightgoldenrodyellow;
+  text-decoration: none;
 }
 
-p:hover a{
-    text-decoration: underline;
-    cursor: pointer;
+p:hover a {
+  color: darkseagreen;
+  text-decoration: underline;
 }
-
 p:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
