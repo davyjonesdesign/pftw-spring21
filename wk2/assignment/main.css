@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  background-image: url("https://media.moddb.com/cache/images/groups/1/2/1488/thumb_620x2000/40528_the_lord_of_the_rings.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: fantasy;
+  color: lightgoldenrodyellow;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  cursor: crosshair;
+}
+
+h1 {
+  margin: auto;
+  padding: 30px 50px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+p {
+    display: inline-block;
+    line-height: 2rem;
+    margin-top: 25%;
+    padding: 10px 25px 7px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+a {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+p:hover a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p:hover {
+    cursor: pointer;
+}
