@@ -23,7 +23,21 @@ console.log(
     "'" +
     "."
 );
-
+window.alert(
+    "You answered" + 
+    " " +
+    "'" +
+    userResponse + 
+    "'" +
+    "." + 
+    " " + 
+    "The correct answer was" +
+    " " + 
+    "'" +
+    questArray[randomIdx].answer + 
+    "'" +
+    "."
+)
 
 
 
