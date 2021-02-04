@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 200);
   noLoop();
 }
 
 function createTile() {
-  translate(100, 100);
+  translate(0, 0);
   fill(77, 118, 111);
   noStroke();
   rect(0, 0, 200, 200);
