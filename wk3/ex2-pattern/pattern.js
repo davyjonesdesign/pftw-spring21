@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(400, 400);
-  noLoop();
+  createCanvas(600, 600);
 }
 
-function createTile() {
-  translate(100, 100);
+function createTile(originX, originY) {
+  translate(originX, originY);
+  // createCanvas(200, 200);
   fill(77, 118, 111);
   noStroke();
   rect(0, 0, 200, 200);
@@ -288,51 +288,27 @@ function createTile() {
   // perpendicular lines
   stroke(198, 141, 41);
   strokeWeight(0.25);
-  line(0, 20, 180, 200)
-  line(0, 40, 160, 200)
-  line(0, 60, 140, 200)
-  line(0, 80, 120, 200)
-  line(0, 120, 80, 200)
-  line(0, 140, 60, 200)
-  line(0, 160, 40, 200)
-  line(0, 180, 20, 200)
-  line(20, 0, 200, 180)
-  line(40, 0, 200, 160)
-  line(60, 0, 200, 140)
-  line(80, 0, 200, 120)
-  line(120, 0, 200, 80)
-  line(140, 0, 200, 60)
-  line(160, 0, 200, 40)
-  line(180, 0, 200, 20)
+  for (var i = 0; i <= 200; i += 20) {
+    line(0, i, 200, i);
+    line(i, 0, i, 200);
+  }
+
   // diagonal lines
-  line(0, 20, 20, 0)
-  line(0, 40, 40, 0)
-  line(0, 60, 60, 0)
-  line(0, 80, 80, 0)
-  line(0, 120, 120, 0)
-  line(0, 140, 140, 0)
-  line(0, 160, 160, 0)
-  line(0, 180, 180, 0)
-  line(20, 200, 200, 20)
-  line(40, 200, 200, 40)
-  line(60, 200, 200, 60)
-  line(80, 200, 200, 80)
-  line(120, 200, 200, 120)
-  line(140, 200, 200, 140)
-  line(160, 200, 200, 160)
-  line(180, 200, 200, 180)
+  for (var j = -180; j <= 180; j += 20) {
+    line(j, 200, j + 200, 0);
+    line(0, j, 200, j + 200);
+  }
 
   // thick lines
+
   stroke(116, 141, 112);
   strokeWeight(2);
-  line(0, 200, 200, 0);
-  line(100, 200, 200, 100);
-  line(0, 100, 100, 0);
-  line(0, 0, 200, 200);
-  line(100, 0, 200, 100);
-  line(0, 100, 100, 200);
-
+  for (var l = -200; l <= 400; l += 100) {
+    line(l, 200, l + 200, 0);
+    line(0, l, 200, l + 200);
+  }
   stroke(77, 118, 111);
+
   strokeWeight(4);
   for (var k = 0; k <= 200; k += 100) {
     line(k, 0, k, 200);
@@ -341,5 +317,13 @@ function createTile() {
 }
 
 function draw() {
-  createTile();
+  createTile(200, 200);
+  createTile(0, 200);
+  createTile(200, 0);
+  createTile(0, -200);
+  createTile(0, -200);
+  createTile(-200, 0);
+  createTile(-200, 0);
+  createTile(0, 200);
+  createTile(0, 200);
 }
