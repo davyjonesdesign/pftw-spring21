@@ -1,11 +1,21 @@
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(616, 616);
 }
 
-function createTile(originX, originY) {
+function createTile(
+  originX,
+  originY,
+  backColor,
+  bigSquareColor,
+  smallSquareColor,
+  hexagonColor,
+  circleColor,
+  gridColor,
+  xColor,
+  boxColor
+) {
   translate(originX, originY);
-  // createCanvas(200, 200);
-  fill(77, 118, 111);
+  fill(backColor);
   noStroke();
   rect(0, 0, 200, 200);
 
@@ -16,8 +26,7 @@ function createTile(originX, originY) {
   var x = 0;
   var y = 0;
 
-  // squares - greenLight
-  fill(116, 141, 112);
+  fill(bigSquareColor);
   beginShape();
   vertex(mid + x, low + y);
   vertex(hi + x, mid + y);
@@ -92,12 +101,12 @@ function createTile(originX, originY) {
   vertex(mid + x, low + y);
   endShape();
 
-  // squares red
+  // small squares
   low = low + 20;
   hi = hi - 20;
   var x = 0;
   var y = 0;
-  fill(133, 30, 23);
+  fill(smallSquareColor);
   beginShape();
   vertex(mid + x, low + y);
   vertex(hi + x, mid + y);
@@ -173,7 +182,7 @@ function createTile(originX, originY) {
 
   // hexagons
   noStroke();
-  fill(198, 141, 41);
+  fill(hexagonColor);
   var sm = 20;
   var md = 40;
   var lg = 60;
@@ -238,9 +247,9 @@ function createTile(originX, originY) {
   var hi = 65;
   var x = 0;
   var y = 0;
-  fill(133, 30, 23);
+  fill(circleColor);
   ellipse(mid + x, mid + y, 40);
-  fill(198, 141, 41);
+  fill(smallSquareColor);
   beginShape();
   vertex(mid + x, lo + y);
   vertex(hi + x, mid + y);
@@ -250,9 +259,9 @@ function createTile(originX, originY) {
   endShape();
 
   y = 100;
-  fill(133, 30, 23);
+  fill(circleColor);
   ellipse(mid + x, mid + y, 40);
-  fill(198, 141, 41);
+  fill(smallSquareColor);
   beginShape();
   vertex(mid + x, lo + y);
   vertex(hi + x, mid + y);
@@ -262,9 +271,9 @@ function createTile(originX, originY) {
   endShape();
 
   x = 100;
-  fill(133, 30, 23);
+  fill(circleColor);
   ellipse(mid + x, mid + y, 40);
-  fill(198, 141, 41);
+  fill(smallSquareColor);
   beginShape();
   vertex(mid + x, lo + y);
   vertex(hi + x, mid + y);
@@ -274,9 +283,9 @@ function createTile(originX, originY) {
   endShape();
 
   y = 0;
-  fill(133, 30, 23);
+  fill(circleColor);
   ellipse(mid + x, mid + y, 40);
-  fill(198, 141, 41);
+  fill(smallSquareColor);
   beginShape();
   vertex(mid + x, lo + y);
   vertex(hi + x, mid + y);
@@ -286,29 +295,53 @@ function createTile(originX, originY) {
   endShape();
 
   // perpendicular lines
-  stroke(198, 141, 41);
+  stroke(gridColor);
   strokeWeight(0.25);
-  for (var i = 0; i <= 200; i += 20) {
-    line(0, i, 200, i);
-    line(i, 0, i, 200);
-  }
-
+  line(0, 20, 180, 200);
+  line(0, 40, 160, 200);
+  line(0, 60, 140, 200);
+  line(0, 80, 120, 200);
+  line(0, 120, 80, 200);
+  line(0, 140, 60, 200);
+  line(0, 160, 40, 200);
+  line(0, 180, 20, 200);
+  line(20, 0, 200, 180);
+  line(40, 0, 200, 160);
+  line(60, 0, 200, 140);
+  line(80, 0, 200, 120);
+  line(120, 0, 200, 80);
+  line(140, 0, 200, 60);
+  line(160, 0, 200, 40);
+  line(180, 0, 200, 20);
   // diagonal lines
-  for (var j = -180; j <= 180; j += 20) {
-    line(j, 200, j + 200, 0);
-    line(0, j, 200, j + 200);
-  }
+  line(0, 20, 20, 0);
+  line(0, 40, 40, 0);
+  line(0, 60, 60, 0);
+  line(0, 80, 80, 0);
+  line(0, 120, 120, 0);
+  line(0, 140, 140, 0);
+  line(0, 160, 160, 0);
+  line(0, 180, 180, 0);
+  line(20, 200, 200, 20);
+  line(40, 200, 200, 40);
+  line(60, 200, 200, 60);
+  line(80, 200, 200, 80);
+  line(120, 200, 200, 120);
+  line(140, 200, 200, 140);
+  line(160, 200, 200, 160);
+  line(180, 200, 200, 180);
 
-  // thick lines
-
-  stroke(116, 141, 112);
+  // X's
+  stroke(xColor);
   strokeWeight(2);
-  for (var l = -200; l <= 400; l += 100) {
-    line(l, 200, l + 200, 0);
-    line(0, l, 200, l + 200);
-  }
-  stroke(77, 118, 111);
-
+  line(0, 200, 200, 0);
+  line(100, 200, 200, 100);
+  line(0, 100, 100, 0);
+  line(0, 0, 200, 200);
+  line(100, 0, 200, 100);
+  line(0, 100, 100, 200);
+  // Box Color
+  stroke(boxColor);
   strokeWeight(4);
   for (var k = 0; k <= 200; k += 100) {
     line(k, 0, k, 200);
@@ -317,13 +350,113 @@ function createTile(originX, originY) {
 }
 
 function draw() {
-  createTile(200, 200);
-  createTile(0, 200);
-  createTile(200, 0);
-  createTile(0, -200);
-  createTile(0, -200);
-  createTile(-200, 0);
-  createTile(-200, 0);
-  createTile(0, 200);
-  createTile(0, 200);
+  createTile(
+    4,
+    4,
+    "CadetBlue",
+    "DarkSlateGray",
+    "Wheat",
+    "DarkBlue",
+    "CadetBlue",
+    "wheat",
+    "CadetBlue",
+    "DarkSlateGray"
+  );
+  createTile(
+    0,
+    204,
+    "LavenderBluch",
+    "Plum",
+    "Indigo",
+    "LightSeaGreen",
+    "LavenderBlush",
+    "Indigo",
+    "Silver",
+    "Silver"
+  );
+  createTile(
+    0,
+    204,
+    "FireBrick",
+    "Black",
+    "FireBrick",
+    "LightCoral",
+    "LavenderBlush",
+    "Indigo",
+    "LightCoral",
+    "LightCoral"
+  );
+  createTile(
+    204,
+    -408,
+    "Silver",
+    "RosyBrown",
+    "PaleGoldenRod",
+    "Peru",
+    "Gold",
+    "LightYellow",
+    "Peru",
+    "LightYellow"
+  );
+  createTile(
+    0,
+    204,
+    "SlateGray",
+    "Gainsboro",
+    "Black",
+    "MediumSpringGreen",
+    "Silver",
+    "GhostWhite",
+    "MediumSpringGreen",
+    "MediumSeaGreen"
+  );
+
+  createTile(
+    0,
+    204,
+    "DarkBlue",
+    "Blue",
+    "CornFlowerBlue",
+    "MediumBlue",
+    "RoyalBlue",
+    "LightSkyBlue",
+    "DeepSkyBlue",
+    "MidnightBlue"
+  );
+  createTile(
+    204,
+    -408,
+    "DarkMagenta",
+    "Fuchsia",
+    "LightPink",
+    "Fuchsia",
+    "DarkMagenta",
+    "PaleTurquoise",
+    "LightPink",
+    "DarkMagenta"
+  );
+  createTile(
+    0,
+    204,
+    "Salmon",
+    "DodgerBlue",
+    "SkyBlue",
+    "LightCyan",
+    "Salmon",
+    "LightCyan",
+    "LightCyan",
+    "SkyBlue"
+  );
+  createTile(
+    0,
+    204,
+    "DarkOliveGreen",
+    "PaleGreen",
+    "Yellow",
+    "PaleGreen",
+    "DarkSeaGreen",
+    "DarkGreen",
+    "PaleGreen",
+    "DarkOliveGreen"
+  );
 }
