@@ -9,6 +9,7 @@ html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  line-height: 32px;
 }
 
 body {
@@ -46,6 +47,7 @@ button:hover {
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.75);
   letter-spacing: 1.5px;
+  box-shadow: 0 0px 15px rgba(255, 233, 136, 0.65);
   transition: all 0.3s ease 0s;
 }
 
@@ -57,7 +59,7 @@ input[type="text"] {
   letter-spacing: 1px;
   color: var(--yel);
   outline: none;
-  background-color: var(--blackround);
+  background-color: #0000002f;
   border-color: var(--yel);
   border-radius: 6px;
   padding: 20px;
@@ -70,18 +72,20 @@ input[type="text"] {
 
 input[type="text"]:hover {
   border-radius: 50px;
-  background-color: #ffe36581;
+  background-color: var(--yel);
   color: var(--white);
   letter-spacing: 1.5px;
   text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0px 15px rgba(255, 233, 136, 0.65);
 }
 
 input[type="text"]:focus,
 input[type="text"]:focus::after {
   border-radius: 50px;
   letter-spacing: 1.5px;
-  background-color: var(--blackround);
+  background-color: var(--black);
+  box-shadow: 0 0px 15px rgba(255, 233, 136, 0.65);
   color: var(--white);
 }
