@@ -19,7 +19,7 @@ let statements = [
   {
     question:
       "Voiceless it cries,\n\nWingless flutters,\n\nToothless bites,\n\nMouthless mutters.",
-    answer: "wind",
+    answer: "the wind",
   },
   {
     question:
@@ -29,12 +29,12 @@ let statements = [
   {
     question:
       "Alive without breath,\n\nAs cold as death;\n\nNever thirsty, ever drinking,\n\nAll in mail never clinking.",
-    answer: "fish",
+    answer: "a fish",
   },
   {
     question:
       "It cannot be seen, cannot be felt,\n\nCannot be heard, cannot be smelt.\n\nIt lies behind stars and under hills,\n\nAnd empty holes it fills. It comes first and follows after,\n\nEnds life, kills laughter.",
-    answer: "dark",
+    answer: "darkness",
   },
 ];
 function next() {
@@ -90,6 +90,8 @@ function restartQuiz() {
   location.reload();
   return false;
 }
+
+
 
 currentQuestion = next();
 let message = currentQuestion.question;
