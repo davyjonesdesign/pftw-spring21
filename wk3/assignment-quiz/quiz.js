@@ -43,11 +43,13 @@ function next() {
     return;
   }
 
-// lose the game after 5 wrong answers
+  // lose the game after 5 wrong answers
   if (numWrong > 4) {
-    alert("Sorry, but you have reached your limit of 5 wrong answers. You lose!");
+    alert(
+      "Sorry, but you have reached your limit of 5 wrong answers. You lose!"
+    );
     return;
-    response = ""
+    response = "";
   }
   const randomIndex = Math.ceil(Math.random() * statements.length - 1);
   return statements[randomIndex];
@@ -79,38 +81,38 @@ function checkQuestion() {
 
 //restart the quiz
 function restartQuiz() {
-    // add back array
-    location.reload();
-return false;
-
+  // add back array
+  location.reload();
+  return false;
 }
-
 
 currentQuestion = next();
 let message = currentQuestion.question;
 function setup() {
-  createCanvas(800, 800);
+  bg = loadImage("LOTR-background.jpg");
+  createCanvas(windowWidth, windowHeight);
   heading = createElement("h1", ["LOTR Riddle Quiz"]);
-  heading.position(100, 100);
+  heading.position(200, 75);
   questionInput = createInput("");
-  questionInput.size(250, 24);
-  questionInput.position(500, 150);
+  questionInput.size(550);
+  questionInput.position(200, 600);
+  questionInput.placeholder = "new text for email";
   submitAnswerButton = createButton("submit answer");
-  submitAnswerButton.size(250, 24);
+  submitAnswerButton.size(200);
   submitAnswerButton.mousePressed(checkQuestion);
-  submitAnswerButton.position(500, 200);
+  submitAnswerButton.position(200, 700);
   restartButton = createButton("restart");
-  restartButton.size(250, 24);
+  restartButton.size(200);
   restartButton.mousePressed(restartQuiz);
-  restartButton.position(500, 225);
-
+  restartButton.position(425, 700);
 }
 function draw() {
-  background("pink");
-  fill("purple");
+  background(bg);
+  background("rgba(25, 25, 0, 0.85)");
+  fill("white");
   textSize(24);
-  text(message, 100, 200);
-  fill(responseColor);
-  text(response, 500, 300);
-  text(5 - numWrong + ' chances left', 500, 350);
+  text(message, 200, 200);
+  fill("#ffe365");
+  text(response, 200, 550);
+  text("You have only " + [5 - numWrong] + " chances remaining.", 200, 825);
 }
