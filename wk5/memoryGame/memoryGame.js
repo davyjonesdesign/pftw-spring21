@@ -79,7 +79,7 @@ function draw () {
   text('matches: ' + gameState.numMatched, 50, 575);
   fill('PaleGreen');
   textSize(40);
-  text('Frog Memory Game', 50, 65);
+  text('Frog Memory Matching Game', 50, 65);
 }
 
 function mousePressed () {
