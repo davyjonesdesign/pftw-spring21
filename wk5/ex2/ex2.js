@@ -4,10 +4,10 @@ let _r = 30;
 let bubbleArray = [];
 function setup () {
   createCanvas(600, 400);
-    for (let i = 0; i < 6; i++) {
-      const bubble = new Bubble(_x, _y, _r);
-      bubbleArray.push(bubble);
-      _x += 75;
+  for (let i = 0; i < 6; i++) {
+    const bubble = new Bubble(_x, _y, _r);
+    bubbleArray.push(bubble);
+    _x += 75;
   }
 }
 
