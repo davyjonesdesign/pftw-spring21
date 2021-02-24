@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Week 6 Assignment</title>
+  </head>
+  <body>
+    <div id="llamaFacts">
+      <div class="llamaHead">
+        <img src="llama.png" alt="llama" />
+        <h1>{{titleText}}</h1>
+      </div>
+      <ol>
+        <li v-if="llamaFact=!true">
+          <h2>1</h2>
+          <p>{{llamaCamal}}</p>
+        </li>
+        <li v-else>
+          <h2>1</h2>
+          <p>{{llamaGroups}}</p>
+        </li>
+        <li>
+          <h2>2</h2>
+          <p>{{llamaSounds}}</p>
+        </li>
+        <li>
+          <h2>3</h2>
+          <p>{{llamaAlarm}}</p>
+        </li>
+        <li>
+          <h2>4</h2>
+          <p>{{llamaSpit}}</p>
+        </li>
+        <li>
+          <h2>5</h2>
+          <p>{{llamaTamed}}</p>
+        </li>
+        <li>
+          <h2>6</h2>
+          <p>{{llamaBreath}}</p>
+        </li>
+        <li>
+          <h2>7</h2>
+          <p>{{llamaPredators}}</p>
+        </li>
+        <li>
+          <h2>8</h2>
+          <p>{{llamaCarry}}</p>
+        </li>
+        <li>
+          <h2>9</h2>
+          <p>{{llamaGrown}}</p>
+        </li>
+        <li>
+          <h2 style="padding: 0.5rem 2.6rem">10</h2>
+          <p>{{llamaLife}}</p>
+        </li>
+      </ol>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

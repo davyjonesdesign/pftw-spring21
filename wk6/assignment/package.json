@@ -1,0 +1,6 @@
+{
+    "name": "plunker-project",
+    "dependencies": {
+      "vue": "^2.6.12"
+    }
+  }

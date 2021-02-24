@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@581&family=Open+Sans&display=swap");
+
+html {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  color: lightcoral;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  width: 70%;
+  position: absolute;
+  left: 30vw;
+  background-color: whitesmoke;
+}
+
+.llamaHead {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  width: 12vw;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+}
+
+#llamaFacts {
+  margin: 4rem 0;
+  padding: 0 2rem;
+  display: flex;
+}
+
+#llamaFacts li {
+  margin: 3rem 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  column-gap: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+#llamaFacts li h2 {
+  margin-top: -1rem;
+  padding: 0.5rem 4rem;
+  font-size: 4rem;
+  align-self: flex-start;
+  background-color: lightcoral;
+  color: whitesmoke;
+  overflow: hidden;
+  justify-self: center;
+  border-radius: 1rem;
+}
+#llamaFacts li p {
+  align-self: center;
+  padding: 1rem 2rem;
+}
