@@ -11,7 +11,7 @@ new Vue({
       margin: '2rem auto'
     },
     tbl: {
-      border: '2px solid darkslategray',
+      border: '2px solid darkslategray'
     },
     headerTitle: {
       color: 'lightseagreen',
@@ -27,7 +27,7 @@ new Vue({
       textDecoration: 'none'
     },
     overRideStyle: {
-      padding: '.5rem 5rem',
+      padding: '.5rem 5rem'
     },
     currentRoute: 'llama',
     hoverableLink: 'alpaca'
