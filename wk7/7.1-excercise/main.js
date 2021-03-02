@@ -2,9 +2,9 @@ new Vue({
   el: '#app',
   data: {
     llamaLink: 'https://en.wikipedia.org/wiki/Llama',
-    llamaTitle: 'Wikipedia Article on Llama Fiber',
+    llamaTitle: 'Wikipedia Article on Llamas',
     alpacaLink: 'https://en.wikipedia.org/wiki/Alpaca',
-    alpacaTitle: 'Wikipedia Article on Alpaca Fiber',
+    alpacaTitle: 'Wikipedia Article on Alpacas',
     container: {
       display: 'block',
       width: '60%',
