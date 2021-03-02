@@ -1,0 +1,37 @@
+html {
+    font-size: 18px; 
+    background: rgb(3, 41, 39);
+    color: white;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.linkLlama {
+    text-decoration: none;
+    color: white;
+    border-top: 2px solid rgb(0, 0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0, 0);
+    border-bottom: 2px solid lightseagreen;
+    padding: .5rem 5rem;
+}
+
+.linkLlama:hover {
+    border: 2px solid lightseagreen;
+    color:rgb(3, 41, 39);
+    background: lightseagreen;
+}
+
+.hoverable:hover {
+    border: 2px solid lightseagreen;
+    color:rgb(3, 41, 39);
+    background: lightseagreen;
+}
+
+table, tr, td, th {
+    border: 1px solid darkslategray;
+    border-collapse: collapse;
+    padding: 20px;
+}

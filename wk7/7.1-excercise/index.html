@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.1 Excercise</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="app" v-cloak v-bind:style="container">
+        <h1 v-bind:style="headerTitle">Llamas v. Aplacas</h1>
+        <table v-bind:style="tbl">
+            <tr>
+                <th></th>
+                <th>
+                    <a v-bind:class="{linkLlama: currentRoute==='llama'}" v-bind:title="llamaTitle" v-bind:href="llamaLink">Llama</a>
+                </th>
+                <th>
+                    <a v-bind:class="{hoverable: hoverableLink==='alpaca'}" v-bind:style="[baseStyle, overRideStyle]" v-bind:title="alpacaTitle" v-bind:href="alpacaLink">Alpaca</a>
+                </th>
+            </tr>
+            <tr>
+                <td>Ears</td>
+                <td>long banana-shaped ears</td>
+                <td>short spear-shaped ears</td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td>up to 400 pounds</td>
+                <td>around 150 pounds</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>42 and 46 inches</td>
+                <td>34 and 36 inches</td>
+            </tr>
+            <tr>
+                <td>Face</td>
+                <td>longer</td>
+                <td>is a bit more blunt, giving them a “smooshed in” look</td>
+            </tr>
+            <tr>
+                <td>Purpose</td>
+                <td>bred as pack animals and for meat</td>
+                <td>bred for fiber</td>
+            </tr>
+            <tr>
+                <td>Hair</td>
+                <td>do not have as much hair on their head and face</td>
+                <td>finer hair, produces more fleece and in much greater variety of colors</td>
+            </tr>
+            <tr>
+                <td>Dispositions</td>
+                <td>independent minded, used as guard animals for alpacas, sheep, and other small livestock</td>
+                <td>herd animals, more skittish</td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
