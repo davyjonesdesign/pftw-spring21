@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.2 Excercise</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Styles & Looping</h1>
+    <div id="app" v-cloak>
+        <ul>
+            <li v-for="num in myNumbers">{{num}}</li>
+        </ul>
+
+        <div class="animal-container" v-for="(critter, index) in animals" style="border: 1px solid black; margin: 10px">
+            <div><h2>{{index}}</h2></div>
+            <div>{{critter.name}}</div>
+            <div>{{critter.color}}</div>
+        </div>
+
+        <div v-for="(prop, key) in myDog">
+            {{key}}: {{prop}}
+        </div>
+    </div>
+    <div id="app2" v-cloak>
+        <table>
+            <thead>
+                <th>complete</th>
+                <th>task</th>
+            </thead>
+            <tbody>
+                <tr v-for="(task, index) in todos" v-bind:class="{even: (index + 1) % 2 === 0, odd: (index + 1) % 2 !== 0}">
+                    <td> {{task.completed}} </td>
+                    <td> {{task.title}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
