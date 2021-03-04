@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 7 Assignment</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+        <h1>Old Cell Phones Collection</h1>
+        <div class="key">
+            <h3>Color Key</h3>
+            <span class="lowestDepreciation">Lowest Price Depreciation</span>
+            <span class="highestDepreciation">Highest Price Depreciation</span>
+        </div>
+    </header>
+    <section id="app" v-cloak>
+      <div class="title">
+        <span class="alignL">brand</span>
+        <span class="alignL">model</span>
+        <span class="alignL">released</span>
+        <span>price when released</span>
+        <span>current price</span>
+      </div>
+
+      <div
+        v-for="(phone, index) in phones"
+        v-bind:class="{rowDiv: index % 1 === 0, lowestDepreciation: (phone.costThen - phone.costNow) <= 5, highestDepreciation: 600 < (phone.costThen - phone.costNow) }"
+      >
+        <span v-bind:class="{brandImg: phone.brand}"><img v-bind:src="phone.brand"/></span>
+        <span v-bind:class="{alignL: phone.model}">{{ phone.model }}</span>
+        <span v-bind:class="{alignL: phone.released}"
+          >{{ phone.released }}</span
+        >
+        <span v-bind:class="{alignR: phone.costThen}"
+          >${{ phone.costThen }}</span
+        >
+        <span v-bind:class="{alignR: phone.costNow}">${{ phone.costNow }}</span>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
