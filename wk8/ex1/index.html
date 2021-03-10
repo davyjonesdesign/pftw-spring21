@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.1 Excercise</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="form">
+        <fieldset>
+          <legend>Fan Club Sign-Up</legend>
+          <div class="form-group">
+            <label for="first-name">
+              First Name
+            </label>
+            <input id="first-name" type="text" v-model="firstName" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">
+              Last Name
+            </label>
+            <input id="last-name" type="text" v-model="lastName" />
+          </div>
+          <div class="form-group">
+            <label for="street-address">
+              Street Address
+            </label>
+            <input id="street-address" type="text" v-model="streetAddress" />
+          </div>
+          <div class="form-group">
+            <label for="state-province">State / Province</label>
+            <select name="" id="" v-model="state">
+                <option v-for="state in availableStates" v-bind:value="state.value">{{state.name}}</option>
+            </select>
+          </div>
+          <div class="checkbox-form-group">
+            <p>Favorite Alpaca Colors</p>
+            <div>
+              <ul>
+                <li v-for="color in colors">
+                  <label v-bind:for="color.value">
+                    <input type="checkbox" name="" v-model="selectedColors" v-bind:id="color.value" v-bind:value="color.value"/>
+                    {{color.name}}
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="alpacaStatus">Describe Your Current Alpaca Status</label>
+            <textarea id="alpacaStatus" v-model="alpacaStatus" cols="30" rows="10"> </textarea>
+          </div>
+        </fieldset>
+        <div class="output">
+          <h3><strong>Output</strong></h3>
+          <p>First Name: <span>{{firstName}}</span></p>
+          <p>Last Name: <span>{{lastName}}</span></p>
+          <p>Street Address: <span>{{streetAddress}}</span></p>
+          <p>State / Province: <span>{{state}}</span></p>
+          <p>Favorite Alpaca Colors: <span>{{selectedColors}}</span></p>
+          <p>Current Alpaca Status: <span>{{alpacaStatus}}</span></p>
+        </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
