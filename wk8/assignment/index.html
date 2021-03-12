@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 8 Assignment</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Old Cell Phones Collection</h1>
+      <div class="key">
+        <h3>Color Key</h3>
+        <div class="lowestDepreciation">Green: Lowest Cost Depreciation</div>
+        <div class="highestDepreciation">Red: Highest Cost Depreciation</div>
+      </div>
+    </header>
+
+    <section id="app" v-cloak>
+      <div class="grid">
+        <div class="title">
+          <div class="cell image">brand</div>
+          <div class="cell model">model</div>
+          <div class="cell date">released</div>
+          <div class="cell cost">original cost</div>
+          <div class="cell cost">current cost</div>
+          <div class="cell actions">Actions</div>
+        </div>
+
+        <div
+          v-for="(phone, index) in phones"
+          v-bind:class="{rowDiv: index % 1 === 0, lowestDepreciation: (phone.costThen - phone.costNow) <= 5, highestDepreciation: (phone.costThen - phone.costNow) >= 615 }"
+        >
+          <div v-bind:class="{image: phone.brand, cell: phone.brand}">
+            <img v-bind:src="phone.brand" v-bind:alt="phone.brandName" />
+          </div>
+          <div class="cell model">{{ phone.model }}</div>
+          <div class="cell date">{{ phone.released }}</div>
+          <div class="cell cost">${{ phone.costThen }}</div>
+          <div class="cell cost">${{ phone.costNow }}</div>
+          <div class="cell actions">
+            <button type="button" v-on:click="deleteItem(phone)">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <form v-on:submit.prevent="submitHandler" class="newPhoneForm">
+        <fieldset>
+          <legend>Add a phone to the collection</legend>
+          <div class="inputs-container">
+            <div class="input">
+              <label for="brand">Phone Image</label
+              ><input id="brand" type="text" v-model="newPhoneObj.brand" />
+            </div>
+            <div class="input">
+              <label for="brandName">Brand Name</label
+              ><input
+                id="brandName"
+                type="text"
+                v-model="newPhoneObj.brandName"
+              />
+            </div>
+            <div class="input">
+              <label for="model">Model Name</label
+              ><input id="model" type="text" v-model="newPhoneObj.model" />
+            </div>
+            <div class="input">
+              <label for="released">Release Date</label
+              ><input
+                id="released"
+                type="date"
+                v-model="newPhoneObj.released"
+              />
+            </div>
+            <div class="input">
+              <label for="costThen">Original Cost</label
+              ><input
+                id="costThen"
+                type="number"
+                v-model="newPhoneObj.costThen"
+              />
+            </div>
+            <div class="input">
+              <label for="costNow">Current Cost</label
+              ><input
+                id="costNow"
+                type="number"
+                v-model="newPhoneObj.costNow"
+              />
+            </div>
+          </div>
+          <button class="submit" type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
