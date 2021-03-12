@@ -87,9 +87,10 @@ h3 {
 
 .title {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-basis: row wrap;
   text-align: center;
+  align-items: center;
+  justify-content: space-between;
   text-transform: capitalize;
   padding: 0.5rem 1.5rem;
   background: var(--blue-dark);
@@ -108,7 +109,9 @@ h3 {
 .rowDiv {
   max-height: 40px;
   display: flex;
-  flex-direction: row;
+  flex-basis: row nowrap;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   color: var(--blue);
   background: var(--white);
@@ -118,7 +121,7 @@ h3 {
 }
 
 .cell {
-  margin: 5px auto;
+  margin: 0;
   width: 18%;
 }
 
@@ -147,7 +150,21 @@ h3 {
 
 .actions {
   width: 10%;
-  text-align: right;
+  text-align: center;
+}
+
+.actions button {
+  border: none;
+  font-size: 16px;
+  color: var(--off-white);
+  padding: .5rem .9rem;
+  background: var(--blue);
+  border-radius: 0.5rem;
+}
+
+.actions button:hover {
+  background: var(--blue-back);
+  cursor: pointer;
 }
 
 .lowestDepreciation {
