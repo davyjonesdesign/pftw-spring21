@@ -284,15 +284,18 @@ h3 {
 
   .rowDiv div,
   .title div {
-    margin: 5px auto;
+    margin: 0;
   }
-
+  .actions button {
+    font-size: 14px;
+    padding: .3rem .7rem;
+  }
   h3 {
     font-size: 1rem;
   }
 
   .image img {
-    max-height: 10px;
+    max-height: 20px;
   }
 }
 
@@ -313,6 +316,11 @@ h3 {
     width: 89%;
   }
 
+  .actions button {
+    font-size: 13px;
+    padding: .35rem .4rem;
+  }
+
   .image img {
     max-height: 15px;
   }
@@ -321,7 +329,13 @@ h3 {
   body {
     font-size: 10px;
   }
+
+  .actions button {
+    font-size: 12px;
+    padding: .35rem .25rem;
+  }
+
   .img img {
-    max-height: 12px;
+    max-height: 15px;
   }
 }
