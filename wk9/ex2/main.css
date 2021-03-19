@@ -1,0 +1,60 @@
+/* Add your styles here */
+* {
+    font-family: 'Oswald', sans-serif;;
+    background: aliceblue;
+    color: #262626;
+  }
+  [v-cloak] {
+    display: none;
+  }
+  body {
+    margin: 0px auto;
+  }
+  h1 {
+      text-align: center;
+      margin: 40px auto 20px;
+      text-transform: capitalize;
+  }
+  #app {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  .animal-container {
+    border: 4px solid #464646;
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(9, 28, 54, 0.2);
+    margin: 25px;
+  }
+  .common-name {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 25px 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: white;
+  }
+  .image img {
+    display: block;
+    width: 100%;
+    max-height: 225px;
+    object-fit: cover;
+    border-bottom: 2px solid #464646;
+    border-top: 2px solid #464646;
+  }
+  .content {
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    font-weight: 500;
+    letter-spacing: .05px;
+    margin: 20px 15px;
+    line-height: 28px;
+  }
+  .name, .order, .family, .genus {
+    background: white;
+  }

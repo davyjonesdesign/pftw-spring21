@@ -1,0 +1,338 @@
+[v-cloak] {
+  display: none;
+}
+
+html {
+  --blue: #13346d;
+  --blue-back: #1650b6;
+  --blue-light: #bad2fc;
+  --blue-dark: #0f2850;
+  --green: rgb(188, 255, 188);
+  --red: rgb(255, 161, 161);
+  --white: #ffffff;
+  --off-white: #f2f2f2;
+  --gray-lightest: #dfdfdf;
+  --gray-lighter: #c6c5c5;
+  --gray-light: #a5a5a5;
+  --gray: #939393;
+  --gray-dark: #787878;
+  --gray-darker: #4b4b4b;
+  --gray-darkest: #2e2e2e;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background: var(--blue-light);
+  max-width: 1080px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 2rem 2rem 1rem;
+}
+
+h1 {
+  color: var(--blue-dark);
+  margin: 2rem auto 1rem;
+  font-size: 2.5rem;
+  align-self: flex-end;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 900;
+}
+
+div {
+  text-align: left;
+}
+
+.key {
+  background: var(--blue-dark);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: var(--white);
+}
+
+.key h3 {
+  font-size: 1.75rem;
+  text-align: left;
+}
+
+.key div {
+  flex: 30%;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  color: var(--blue-dark);
+  padding: 1rem 1.5rem;
+  align-self: center;
+  justify-content: center;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+.title {
+  display: flex;
+  flex-basis: row wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 0.5rem 1.5rem;
+  background: var(--blue-dark);
+  color: var(--blue-light);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.grid {
+  border: 10px solid var(--blue-dark);
+  margin: auto 2rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.rowDiv {
+  max-height: 40px;
+  display: flex;
+  flex-basis: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--blue);
+  background: var(--white);
+  border-top: 1px solid var(--gray-lightest);
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+.cell {
+  margin: 0;
+  width: 18%;
+}
+
+.image {
+  width: 20%;
+  object-fit: cover;
+}
+
+.image img {
+  max-height: 25px;
+}
+
+.model {
+  width: 20%;
+}
+
+.date {
+  width: 10%;
+  text-align: center;
+}
+
+.cost {
+  width: 10%;
+  text-align: center;
+}
+
+.actions {
+  width: 10%;
+  text-align: center;
+}
+
+.actions button {
+  border: none;
+  font-size: 16px;
+  color: var(--off-white);
+  padding: 0.5rem 0.9rem;
+  background: var(--blue);
+  border-radius: 0.5rem;
+}
+
+.actions button:hover {
+  background: var(--blue-back);
+  cursor: pointer;
+}
+
+.lowestDepreciation {
+  background: var(--green);
+  text-align: center;
+}
+
+.highestDepreciation {
+  background: var(--red);
+  text-align: center;
+}
+
+.newPhoneForm fieldset {
+  border: 3px solid var(--blue-dark);
+  background: var(--gray-lightest);
+  outline: none;
+  margin: 2rem;
+  padding: 2rem 1.5rem;
+  justify-content: flex-start;
+  align-content: center;
+  max-width: 1080px;
+  border-radius: 0.5rem;
+}
+
+.newPhoneForm legend {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  background: var(--blue-dark);
+  color: white;
+  border-radius: 1rem;
+}
+
+.inputs-container {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  justify-content: space-between;
+}
+
+.input {
+  width: 47%;
+}
+
+.newPhoneForm input {
+  border: 2px solid var(--gray);
+  background: var(--off-white);
+  color: var(--blue-dark);
+  padding: 1rem;
+  width: 91%;
+  margin: 0.5rem 0 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.newPhoneForm input:focus {
+  background: var(--white);
+  outline: none;
+  border: 2px solid var(--blue);
+  box-shadow: 0 0 6px var(--blue-light);
+}
+
+.newPhoneForm button {
+  border: none;
+  font-size: 18px;
+  color: var(--off-white);
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0.75rem;
+  background: var(--blue);
+  border-radius: 0.5rem;
+}
+
+.newPhoneForm button:hover {
+  background: var(--blue-back);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 0.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    align-self: center;
+  }
+
+  .key {
+    padding: 0.5rem 2rem;
+  }
+
+  .key h3 {
+    font-size: 1.5rem;
+  }
+
+  .key div {
+    margin-left: 0;
+    flex: 100%;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .rowDiv {
+    padding: 1rem 0.75rem;
+  }
+
+  .rowDiv div,
+  .title div {
+    margin: 0;
+  }
+  .actions button {
+    font-size: 14px;
+    padding: 0.3rem 0.7rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  .image img {
+    max-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .inputs-container {
+    font-size: 16px;
+    flex-flow: column wrap;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .newPhoneForm input {
+    width: 89%;
+  }
+
+  .actions button {
+    font-size: 13px;
+    padding: 0.35rem 0.4rem;
+  }
+
+  .image img {
+    max-height: 15px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  body {
+    font-size: 10px;
+  }
+
+  .actions button {
+    font-size: 12px;
+    padding: 0.35rem 0.25rem;
+  }
+
+  .img img {
+    max-height: 15px;
+  }
+}

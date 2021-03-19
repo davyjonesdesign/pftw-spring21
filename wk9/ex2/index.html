@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Excercise 9.2</title>
+</head>
+<body>
+    <h1>Camelid components</h1>
+    <div id="app">
+      <div v-for="objects in camelids" class="animal-wrapper">
+        <animal-component
+          v-bind:common-name="objects.commonName"
+          v-bind:binomial-name="objects.binomialName"
+          v-bind:order="objects.order"
+          v-bind:family="objects.family"
+          v-bind:genus="objects.genus"
+          v-bind:image="objects.image"
+        ></animal-component>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+   </body>
+</html>
+
+<!doctype html>
