@@ -144,7 +144,7 @@ input::placeholder {
   box-shadow: -4px 4px 0px #003a70;
 }
 .card-card:hover {
-  transform:translate(3px, -5px);
+  transform: translate(3px, -5px);
   z-index: 10;
   box-shadow: -10px 12px 3px #003a70;
 }

@@ -9,7 +9,8 @@ Vue.component('pokemon-card', {
       </div>
   `,
   props: ['card']
-})
+});
+
 const vm = new Vue({
   el: '#app',
   data: {
@@ -20,7 +21,7 @@ const vm = new Vue({
     searchCards: function () {
       axios
         .get('https://api.pokemontcg.io/v2/cards/',
-          { params: { q: 'name:' + vm.searchQuery + '*' } })
+          { params: { q: 'name:' + vm.searchQuery + '*' } }) // added at end for wildcard matching
         .then(response => {
           vm.results = response.data.data;
         });
@@ -37,6 +38,7 @@ const vm = new Vue({
   }
 });
 
+// cards draggable
 const slider = document.querySelector('.cards-wrapper');
 let isDown = false;
 let startX;

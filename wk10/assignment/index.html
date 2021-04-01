@@ -22,7 +22,11 @@
       <form v-on:submit.prevent="searchCards">
         <div class="input-wrapper">
           <label class="hidden">Type in a Pokemon name</label>
-          <input v-model="searchQuery" placeholder="Type in a Pokemon name" type="text"/>
+          <input
+            v-model="searchQuery"
+            placeholder="Type in a Pokemon name"
+            type="text"
+          />
         </div>
         <button type="submit" class="hidden">Submit</button>
       </form>
