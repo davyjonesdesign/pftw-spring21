@@ -164,4 +164,9 @@ input::placeholder {
 .card-image img {
   height: 300px;
   margin: 10px auto 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
