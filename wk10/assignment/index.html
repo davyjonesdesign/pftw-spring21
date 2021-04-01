@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 10: Pokemon Card Search</title>
+  </head>
+  <body>
+    <header>
+      <h2>Pokemon TCG Search</h2>
+      <div class="logo-image">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png"
+          alt="Pokemon"
+        />
+      </div>
+    </header>
+    <section id="app">
+      <form v-on:submit.prevent="searchCards">
+        <div class="input-wrapper">
+          <label class="hidden">Type in a Pokemon name</label>
+          <input v-model="searchQuery" placeholder="Type in a Pokemon name" type="text"/>
+        </div>
+        <button type="submit" class="hidden">Submit</button>
+      </form>
+      <h3 class="results-header">Results</h3>
+      <div class="cards-wrapper">
+        <pokemon-card v-for="card in results" v-bind:card="card"></pokemon-card>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
