@@ -113,7 +113,6 @@ input::placeholder {
 .cards-wrapper {
   padding: 0 25px 5px;
   margin: 0;
-  min-height: 433px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
