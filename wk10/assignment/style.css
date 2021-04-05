@@ -40,6 +40,7 @@ form {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 25px 10px;
 }
 .input-wrapper {
   display: flex;
@@ -47,11 +48,10 @@ form {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 0 25px;
 }
 input[type="text"] {
   width: 100%;
-  margin: 15px 0 0;
+  margin: 15px 15px 0 0;
   box-sizing: border-box;
   outline: none;
   border: 3px solid #3d7dca;
@@ -62,6 +62,10 @@ input[type="text"] {
   box-shadow: -4px 4px 0 #003a70;
   padding: 12px 20px;
   transition: 0.2s ease-in-out;
+}
+input[type="text"]:hover {
+  transform: translate(2px, -2px);
+  box-shadow: -2px 2px 0 #003a70;
 }
 input[type="text"]:focus {
   transform: translate(-2px, 2px);
@@ -74,6 +78,34 @@ input[type="text"]:focus {
 input::placeholder {
   color: #003a70;
   font-weight: 600;
+}
+button {
+  margin: 15px 0 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 3px solid #3d7dca;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #3d7dca;
+  color: white;
+  transform: translate(4px, -4px);
+  box-shadow: -4px 4px 0 #003a70;
+  padding: 12px 20px;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  transform: translate(2px, -2px);
+  color: white;
+  border-color: #003a70;
+  background-color: #003a70;
+  box-shadow: -2px 2px 0 black;
+}
+button:active {
+  transform: translate(-2px, 2px);
+  color: white;
+  border-color: black;
+  background-color: black;
+  box-shadow: 0 0 0 #ffcb05;
 }
 
 /* Srollbar */

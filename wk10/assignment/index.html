@@ -26,11 +26,12 @@
             v-model="searchQuery"
             placeholder="Type in a Pokemon name"
             type="text"
+            id="nameInput"
           />
         </div>
-        <button type="submit" class="hidden">Submit</button>
+        <button type="submit" id="searchBtn" >Submit</button>
       </form>
-      <h3 class="results-header">Results</h3>
+      <h3 class="results-header">Results:</h3>
       <div class="cards-wrapper">
         <pokemon-card v-for="card in results" v-bind:card="card"></pokemon-card>
       </div>

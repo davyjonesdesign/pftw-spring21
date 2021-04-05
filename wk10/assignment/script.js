@@ -20,9 +20,10 @@ const vm = new Vue({
   methods: {
     searchCards: function () {
       axios
-        .get('https://api.pokemontcg.io/v2/cards/',
-          { params: { q: 'name:' + vm.searchQuery + '*' } }) // added at end for wildcard matching
-        .then(response => {
+        .get('https://api.pokemontcg.io/v2/cards/', {
+          params: { q: 'name:' + vm.searchQuery + '*' }
+        }) // added at end for wildcard matching
+        .then((response) => {
           vm.results = response.data.data;
         });
     }
@@ -31,9 +32,10 @@ const vm = new Vue({
     const query = {
       q: 'name:pikachu'
     };
-    axios.get('https://api.pokemontcg.io/v2/cards', { params: query })
-      .then(response => {
-        console.log('response', response);
+    axios
+      .get('https://api.pokemontcg.io/v2/cards', { params: query })
+      .then((response) => {
+        vm.results = response.data.data;
       });
   }
 });
@@ -65,4 +67,13 @@ slider.addEventListener('mousemove', (e) => {
   const walk = (x - startX) * 3; // scroll-fast
   slider.scrollLeft = scrollLeft - walk;
   console.log(walk);
+});
+
+// button on enter
+var input = document.getElementById("nameInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("searchBtn").click();
+  }
 });
