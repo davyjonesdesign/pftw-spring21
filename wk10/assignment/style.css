@@ -185,12 +185,15 @@ button:active {
 }
 .card-card p {
   text-align: center;
-  padding: 5px 0;
+  padding: 5px;
   margin: 10px 0 7.5px;
   border-radius: 5px;
-  width: 90%;
+  width: 87%;
   color: #ffcb05;
   background: #003a70;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card-image img {
   height: 300px;
