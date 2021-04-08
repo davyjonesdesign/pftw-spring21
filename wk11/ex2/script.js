@@ -11,7 +11,7 @@ function setup () {
 function draw () {
   noFill();
   stroke(r, g, b);
-  strokeWeight(5);
+  strokeWeight(1);
   // using for loop to create triangles
   for (let Yc = 0; Yc <= 500; Yc += 250) {
     for (let Xc = 0; Xc <= 500; Xc += 500) {
@@ -43,7 +43,7 @@ function mousePressed () {
         for (let Xb = 0; Xb <= 500; Xb += 250) {
           for (let Ya = 0; Ya <= 500; Ya += 500) {
             for (let Xa = 0; Xa <= 500; Xa += 250) {
-              triangle(mouseX, mouseY, Xb, Yb, Xc, Yc);
+              triangle(mouseX, Ya, Xb, mouseY, Xc, Yc);
             }
           }
         }
