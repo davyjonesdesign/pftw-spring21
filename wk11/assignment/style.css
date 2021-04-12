@@ -1,0 +1,36 @@
+html {
+    margin: 0;
+    background: #333333;
+    color: #f9f9f9;
+}
+body {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+nav a {
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+    background: black;
+    text-decoration: none;
+    color: #f5faae;
+    border: 3px solid #f5faae;
+}
+nav a:hover {
+    background: #ffffff36;
+    border-color: white;
+}
+.linkActive {
+    background: #ffffff36;
+    color: grey;
+    border-color: white;
+}
