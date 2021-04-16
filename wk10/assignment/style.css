@@ -99,6 +99,7 @@ button:hover {
   border-color: #003a70;
   background-color: #003a70;
   box-shadow: -2px 2px 0 black;
+  cursor: pointer;
 }
 button:active {
   transform: translate(-2px, 2px);
@@ -165,19 +166,11 @@ button:active {
 }
 .card-card {
   margin: 10px 5px;
-  padding: 15px 0 0;
   background: #3d7dca;
   min-width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: all 0.1s ease-in-out;
-  box-shadow: -4px 4px 0px #003a70;
-}
-.card-card:hover {
-  transform: translate(3px, -5px);
-  z-index: 10;
-  box-shadow: -10px 12px 3px #003a70;
 }
 .card-card h3 {
   margin: 0;
@@ -185,10 +178,11 @@ button:active {
 }
 .card-card p {
   text-align: center;
-  padding: 5px;
-  margin: 10px 0 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+  margin: 10px 0 0px;
   border-radius: 5px;
-  width: 87%;
   color: #ffcb05;
   background: #003a70;
   white-space: nowrap;

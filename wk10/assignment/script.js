@@ -1,12 +1,14 @@
+var baseurl = 'https://api.pokemontcg.io/v2/cards'
+
 Vue.component('pokemon-card', {
   template: `
-      <div class="card-card">
+      <button class="card-card" id="myBtn">
         <h3>{{card.name}}</h3>
         <div class="card-image">
           <img v-bind:src="card.images.small" v-bind:alt="card.name">
         </div>
         <p>Set: {{card.set.name}}</p>
-      </div>
+      </button>
   `,
   props: ['card']
 });
@@ -70,10 +72,10 @@ slider.addEventListener('mousemove', (e) => {
 });
 
 // button on enter
-var input = document.getElementById("nameInput");
-input.addEventListener("keyup", function(event) {
+var input = document.getElementById('nameInput');
+input.addEventListener('keyup', function (event) {
   if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("searchBtn").click();
+    event.preventDefault();
+    document.getElementById('searchBtn').click();
   }
 });
