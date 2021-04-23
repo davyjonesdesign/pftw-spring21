@@ -10,10 +10,10 @@ function setup () {
   slider2 = createSlider(0, 5, 3);
 
   pos = 0.0;
-  inc = 1.0;
+  inc = .1;
 
   pos2 = 0.0;
-  inc2 = 5.0;
+  inc2 = 1.0;
 }
 
 function draw () {
@@ -24,8 +24,8 @@ function draw () {
 
   var mySinVal = sin(pos);
   var mySinVal2 = sin(pos2);
-  amplified = mySinVal * 500;
-  amplified2 = mySinVal2 * 500;
+  amplified = mySinVal * 400;
+  amplified2 = mySinVal2 * 400;
 
   for (i = 255; i >= 0; i = x - 50) {
     for (x = 800; x >= 0; x = x - 200) {
