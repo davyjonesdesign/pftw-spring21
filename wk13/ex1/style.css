@@ -1,0 +1,10 @@
+html {
+    background: rgb(200, 200, 255);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
