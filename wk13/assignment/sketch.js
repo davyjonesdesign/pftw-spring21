@@ -18,7 +18,7 @@ function setup () {
 
   flowfield = new Array(cols * rows);
 
-  for (var i = 0; i < 2000; i++) {
+  for (var i = 0; i < 2500; i++) {
     particles[i] = new Particle();
   }
 
@@ -38,7 +38,7 @@ function draw () {
       xoff += sin(inc);
     }
     yoff += sin(inc);
-    zoff += 0.0009;
+    zoff += 0.0003;
   }
   for (var i = 0; i < particles.length; i++) {
     particles[i].follow(flowfield);
@@ -48,7 +48,8 @@ function draw () {
   }
 }
 
-function mousePressed () {
+function mousePressed() {
   clear();
   background(random(100, 210), random(50, 160), random(30, 140));
 }
+

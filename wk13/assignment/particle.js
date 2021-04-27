@@ -1,10 +1,8 @@
-var valueX;
-var valueY;
 function Particle () {
   this.pos = createVector(random(width), random(height));
   this.vel = createVector(0, 0);
   this.acc = createVector(0, 0);
-  this.maxspeed = 3.5;
+  this.maxspeed = sin(inc) * 20;
 
   this.prevPos = this.pos.copy();
 
@@ -28,12 +26,8 @@ function Particle () {
   };
 
   this.show = function () {
-    for (var i = 0; i < 3; i++) {
-      strokeWeight(1.5);
-      stroke(41, 31, 43, 15);
-      // Fill color according to mouseClicked()
-      stroke(random(20, 60), random(10, 50), random(20, 60), 15);
-    }
+    strokeWeight(1.5);
+    stroke(random(20, 70), random(10, 60), random(20, 80), 15);
     line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
     this.updatePrev();
   };
@@ -62,3 +56,4 @@ function Particle () {
     }
   };
 }
+
