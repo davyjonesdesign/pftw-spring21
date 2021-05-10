@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Watermark Bible Studies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- studies template -->
+<script type="text/x-template" id="studies">
+    <div>
+        <!-- navbar -->
+        <div class="nav" id="navbar" >
+            <div class="nav-content" :id="study.id">
+                <div class="nav-logo">
+                    <router-link custom
+                    v-slot="{ href, route, navigate, isActive, isExactActive }" to="/" class="clean-router">
+                        <a class="logo-link" :active="isActive" @click="navigate">
+                            <h1>Watermark Bible Studies</h1>
+                        </a>
+                    </router-link>
+                </div>
+
+                <div class="nav-right">
+                    <router-link class="btn clicked" custom
+                    v-slot="{ href, route, navigate, isActive, isExactActive }" :to="'/'">
+                        <a disabled :active="isActive" @click="navigate">Home</a>
+                    </router-link>
+                
+                    <input v-model="searchValue" v-on:keyup.enter="filterItems" placeholder="Search by Book, Verse, Title, or Content"/>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        <div>
+            <div class="container-study" :key="study.title">
+                <div class="study-card" v-for="study in filterItems()" :key="study.id" >
+                    <router-link :to="'/studies/' + study.book + '/' + study.path"><img v-bind:src="study.image" v-bind:alt="study.verse"></router-link>
+                    <div class="study-card_content">
+                        <div>
+                            <h2>{{study.title}}</h2>
+                            <h4>{{ study.verse }}</h4>
+                            <p v-if="study.paragraph1">{{ study.paragraph1 | readMore(200, '...') }}</p>
+                            <p v-else="study.quest1">{{ study.quest1 | readMore(200, '...') }}</p>
+                        </div>
+                        <router-link class="btn card-btn" custom
+                        v-slot="{ href, route, navigate, isActive, isExactActive }" :to="'/studies/' + study.book + '/' + study.path">
+                            <a  :active="isActive" @click="navigate">See Full Study</a>
+                        </router-link>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<!-- study page -->
+<script type="text/x-template" id="study">
+    <div style="container-study" >
+        <div class="nav" id="navbar" >
+            <div class="nav-content" :id="study.id">
+                <div class="nav-logo">
+                    <router-link custom
+                    v-slot="{ href, route, navigate, isActive, isExactActive }" to="/" class="clean-router">
+                        <a class="logo-link" :active="isActive" @click="navigate">
+                            <h1>Watermark Bible Studies</h1>
+                        </a>
+                    </router-link>
+                </div>
+
+                <div class="nav-right">
+                    <router-link class="btn" custom
+                    v-slot="{ href, route, navigate, isActive, isExactActive }" :to="'/'">
+                        <a  :active="isActive" @click="navigate">Home</a>
+                    </router-link>
+                    <input id="searchInput" v-model="searchValue" placeholder="Search by Book, Verse, Title, or Content" onClick="document.getElementById('searchResults').scrollIntoView();"/>
+                </div>
+                
+            </div>
+        </div>
+        <div class="study-page_img">
+            <img v-bind:src="study.image" v-bind:alt="study.verse">
+        </div>
+        <div class="img-overlay"></div>
+        
+        <div class="study-page" >
+            <h2>{{study.verse}}</h2>
+            <h3>{{study.title }}</h3>
+            <!-- content section1 -->
+                <h4 v-if="study.subtitle1">{{study.subtitle1}}</h4>
+                <p v-if="study.paragraph1">{{study.paragraph1}}</p>
+                <p v-if="study.paragraph1b">{{study.paragraph1b}}</p>
+                <p v-if="study.paragraph1c">{{study.paragraph1c}}</p>
+                <div v-if="study.quest1" class="study-quest">
+                    <h4>Question:</h4>
+                    <p>{{ study.quest1 }}</p>
+                </div>
+                <ul v-for="list in study.list1">
+                    <li>
+                        <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                        {{ list.item }}
+                        <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                        {{ list.item2 }}
+                        <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                        {{ list.item3 }}
+                        <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                        {{ list.item4 }}
+                        <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                        {{ list.item5 }}
+                    </li>
+                </ul>
+                <p class="quote" v-if="study.quote1">"{{study.quote1}}"</p>
+            <!-- content section 2 -->
+                <h4 v-if="study.subtitle2">{{study.subtitle2}}</h4>
+                <p v-if="study.paragraph2">{{study.paragraph2}}</p>
+                <p v-if="study.paragraph2b">{{study.paragraph2b}}</p>
+                <p v-if="study.paragraph2c">{{study.paragraph2c}}</p>
+                <div v-if="study.quest2" class="study-quest">
+                    <h4>Question:</h4>
+                    <p>{{ study.quest2 }}</p>
+                </div>
+                <ul v-if="study.list2" v-for="list in study.list2">
+                    <li>
+                        <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                        {{ list.item }}
+                        <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                        {{ list.item2 }}
+                        <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                        {{ list.item3 }}
+                        <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                        {{ list.item4 }}
+                        <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                        {{ list.item5 }}
+                    </li>
+                </ul>
+                <p class="quote" v-if="study.quote2">"{{study.quote2}}"</p>
+
+             <!-- content section 3 -->
+            <h4 v-if="study.subtitle3">{{study.subtitle3}}</h4>
+            <p v-if="study.paragraph3">{{study.paragraph3}}</p>
+             <p v-if="study.paragraph3b">{{study.paragraph3b}}</p>
+             <p v-if="study.paragraph3c">{{study.paragraph3c}}</p>
+             <div v-if="study.quest3" class="study-quest">
+                 <h4>Question:</h4>
+                 <p>{{ study.quest3 }}</p>
+             </div>
+             <ul v-if="study.list3" v-for="list in study.list3">
+                <li>
+                    <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                    {{ list.item }}
+                    <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                    {{ list.item2 }}
+                    <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                    {{ list.item3 }}
+                    <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                    {{ list.item4 }}
+                    <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                    {{ list.item5 }}
+
+                </li>
+             </ul>
+             <p class="quote" v-if="study.quote3">"{{study.quote3}}"</p>
+
+             <!-- content section 4 -->
+             <h4 v-if="study.subtitle4">{{study.subtitle4}}</h4>
+             <p v-if="study.paragraph4">{{study.paragraph4}}</p>
+             <p v-if="study.paragraph4b">{{study.paragraph4b}}</p>
+             <p v-if="study.paragraph4c">{{study.paragraph4c}}</p>
+             <div v-if="study.quest4" class="study-quest">
+                 <h4>Question:</h4>
+                 <p>{{ study.quest4 }}</p>
+             </div>
+             <ul v-if="study.list4" v-for="list in study.list4">
+                <li>
+                    <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                    {{ list.item }}
+                    <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                    {{ list.item2 }}
+                    <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                    {{ list.item3 }}
+                    <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                    {{ list.item4 }}
+                    <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                    {{ list.item5 }}
+                </li>
+             </ul>
+             <p class="quote" v-if="study.quote4">"{{study.quote4}}"</p>
+
+             <!-- content section 5 -->
+             <h4 v-if="study.subtitle5">{{study.subtitle5}}</h4>
+             <p v-if="study.paragraph5">{{study.paragraph5}}</p>
+             <p v-if="study.paragraph5b">{{study.paragraph5b}}</p>
+             <p v-if="study.paragraph5c">{{study.paragraph5c}}</p>
+             <div v-if="study.quest5" class="study-quest">
+                 <h4>Question:</h4>
+                 <p>{{ study.quest5 }}</p>
+             </div>
+             <ul v-if="study.list5" v-for="list in study.list5">
+                <li>
+                    <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                    {{ list.item }}
+                    <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                    {{ list.item2 }}
+                    <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                    {{ list.item3 }}
+                    <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                    {{ list.item4 }}
+                    <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                    {{ list.item5 }}
+                </li>
+             </ul>
+             <p class="quote" v-if="study.quote5">{{study.quote5}}</p>
+
+             <!-- content section 6 -->
+             <h4 v-if="study.subtitle6">{{study.subtitle6}}</h4>
+             <p v-if="study.paragraph6">{{study.paragraph6}}</p>
+             <p v-if="study.paragraph6b">{{study.paragraph6b}}</p>
+             <p v-if="study.paragraph6c">{{study.paragraph6c}}</p>
+             <div v-if="study.quest6" class="study-quest">
+                 <h4>Question:</h4>
+                 <p>{{ study.quest6 }}</p>
+             </div>
+             <ul v-if="study.list6" v-for="list in study.list6">
+                <li>
+                    <span v-if="list.bold" style="font-weight: 600;">{{ list.bold }}</span>
+                    {{ list.item }}
+                    <p class="quote" v-if="list.quote">"{{list.quote}}"</p>
+                    {{ list.item2 }}
+                    <p class="quote" v-if="list.quote2">"{{list.quote2}}"</p>
+                    {{ list.item3 }}
+                    <p class="quote" v-if="list.quote3">"{{list.quote3}}"</p>
+                    {{ list.item4 }}
+                    <p class="quote" v-if="list.quote4">"{{list.quote4}}"</p>
+                    {{ list.item5 }}
+                </li>
+             </ul>
+             <p class="quote" v-if="study.quote6">{{study.quote6}}</p>
+
+             <!-- back to search -->
+            <div class="bottom-btns">
+                <router-link class="btn" custom
+                v-slot="{ href, route, navigate, isActive, isExactActive }" :to="'/'">
+                    <a  :active="isActive" @click="navigate">Back to Home</a>
+                </router-link>
+            </div>
+        </div>
+
+        <!-- bottom search results -->
+        <div class="study-page_searchResults" :key="study.title" id="searchResults">
+            <div class="rule"><h2>Results</h2></div>
+            <div class="cards-flex">
+                <div class="study-card card-btm" v-for="study in filterItems()" :key="study.id" >
+                    <router-link :to="'/studies/' + study.book + '/' + study.path">
+                        <img v-bind:src="study.image" v-bind:alt="study.verse">
+                    </router-link>
+                    <div class="study-card_content content-btm">
+                        <div>
+                            <h2>{{study.title}}</h2>
+                            <h4>{{ study.verse }}</h4>
+                            <p v-if="study.paragraph1">{{ study.paragraph1 | readMore(150, '...') }}</p>
+                            <p v-else="study.quest1">{{ study.quest1 | readMore(150, '...') }}</p>
+                        </div>
+                        <router-link class="btn card-btn" custom
+                        v-slot="{ href, route, navigate, isActive, isExactActive }" :to="'/studies/' + study.book + '/' + study.path">
+                            <a  :active="isActive" @click="navigate">See Full Study</a>
+                        </router-link>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</script>
+
+<div id="app">
+    <router-view></router-view>
+</div>
+<!-- partial -->
+<script src='https://unpkg.com/vuex'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script  src="script.js"></script>
+</body>
+</html>

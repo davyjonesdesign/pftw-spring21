@@ -1,0 +1,349 @@
+@import url("https://use.typekit.net/tki1qfa.css");
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/**
+    * Watermark Bible Studies
+    * Developed By: Davy Jones
+    **/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  --transition: all .1s ease-in-out;
+  --transition-longer: all .35s ease-in-out;
+  --shadow: 0 3px 8px rgba(0, 0, 0, 0.35);;
+  --shadow-subtle: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  --green-dark: #3a5536;
+  --green: #708b5c;
+  --green-light: #9DC183;
+  --green-lightest: #eeffe2;
+  --gray-darkest: #2e2e2e;
+  --gray-darker: #3f3f3f;
+  --gray-dark: #6a6a6a;
+  --gray: #878787;
+  --gray-light: #bdbdbd;
+  --gray-lighter: #d1d1d1;
+  --gray-lightest: #eeeeee;
+  font-family: urw-form, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  margin: 0;
+  background: var(--gray-light);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+h2 {
+  margin: 40px auto;
+  text-transform: capitalize;
+}
+h3, h4, h5 {
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+p, ul {
+  margin: 15px 0px;
+}
+ul {
+  margin: 5px 0px;
+}
+
+
+#app {
+  margin: 0;
+}
+
+#html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Navbar */
+#navbar {
+  transition: var(--transition-longer);
+}
+.nav {
+  position: sticky;
+  display: block;
+  top: 0;
+  width: 100%;
+  background: var(--green);
+}
+.nav-content {
+  height: 75px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo h1 {
+  margin: 0px;
+  flex: 50%;
+}
+.nav-right {
+  max-width: 800px;
+  margin-left: 20px;
+  flex: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logo-link h1 {
+  cursor: pointer;
+  color: white;
+  transition: var(--transition);
+}
+.logo-link h1:hover {
+  color:var(--green-lightest);
+}
+input {
+  color: black;
+  background-color: white;
+  width: 100%;
+  max-width: 650px;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid var(--green-dark);
+  cursor: pointer;
+  transition: var(--transition);
+  border-radius: 5px;
+}
+input:hover {
+  background: var(--green-light);
+  box-shadow: var(--shadow);
+  border-radius: 15px;
+}
+input:focus {
+  background: white;
+  padding-left: 20px;
+  box-shadow: var(--shadow);
+  border-radius: 50px;
+}
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: 2px solid var(--green-dark);
+  background: var(--green-dark);
+  padding: 10px 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--gray-darkest);
+  border: 2px solid var(--green-dark);
+  background: var(--green-light);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+.btn:active {
+  background: var(--green);
+}
+.btn:disabled,
+.btn[disabled]{
+  border-radius: 15px;
+  box-shadow: none;
+  cursor: default;
+  color: var(--gray-darkest);
+  border: 2px solid var(--green-dark);
+  background: var(--green-light);
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .nav-content {
+    /* height: 90px; */
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-right {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+}
+
+/* search results */
+
+.container-study {
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 960px;
+}
+
+/*
+add @media query for container-study at small screen sizes
+*/
+
+.study-card {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: var(--shadow-subtle);
+  overflow: hidden;
+}
+.study-card h2 {
+  margin: 15px 0;
+}
+.study-card img {
+  display: block;
+  /* margin: 20px auto; */
+  height: 100%;
+  object-position: top;
+  object-fit: cover;
+  width: 250px;
+}
+.study-card_content {
+  height: 300px;
+  margin: 30px 40px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.study-card_content a {
+  margin-top: 20px;
+}
+.study-card_content h4 {
+  margin-bottom: 0;
+}
+
+/* study page styles */
+.study-page {
+  display: flex;
+  padding: 20px 60px 40px;
+  max-width: 960px;
+  margin: 60px auto 40px;
+  flex-direction: column;
+  background: white;
+  border-radius: 15px;
+  box-shadow: var(--shadow-subtle);
+}
+.study-page h2 {
+  margin-top: 60px;
+}
+.study-page h4 {
+  margin-top: 60px;
+}
+.study-quest h4 {
+  margin-top: 0;
+}
+.study-page_img {
+  position: fixed;
+  top: 0;
+  z-index: -10;
+}
+
+.study-page_img img {
+  position: relative;
+  object-fit: cover;
+  object-position: bottom;
+  height: 500px;
+  width: 100vw;
+}
+
+.img-overlay {
+  position: fixed;
+  top: 0;
+  height: 500px;
+  width: 100vw;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 25%);
+  z-index: -9;
+}
+.study-quest {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.study-quest p {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.quote {
+  margin: 5px 75px 10px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 200;
+}
+.bottom-btns {
+  margin: 35px auto;
+}
+
+/* study page search results */
+.study-page_searchResults {
+  margin: 0px auto;
+  padding: 40px 60px 0;
+  min-height: 700px;
+  background: var(--gray-lightest);
+
+}
+.rule {
+  max-width: 960px;
+  margin: 0 auto 30px;
+  border-bottom: 1px solid var(--gray-light);
+  padding: 40px 0 0;
+}
+.cards-flex {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  transition: var(--transition);
+}
+.card-btm {
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 900px;
+}
+.cards-flex:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+
+.content-btm{
+  justify-content: space-between;
+  height: 100%;
+  margin: 30px;
+
+  
+}
+.card-btm img {
+  display: block;
+  /* margin: 20px auto; */
+  width: 100%;
+  object-position: top;
+  object-fit: cover;
+  max-height: 250px;
+}

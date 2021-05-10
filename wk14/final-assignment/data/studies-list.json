@@ -1,0 +1,667 @@
+[
+  {
+    "id": 1,
+    "path": "intro",
+    "title": "introduction",
+    "book": "esther",
+    "verse": "esther",
+    "chapterFrom": "",
+    "verseFrom":"",
+    "chapterTo" : "",
+    "verseTo": "",
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+
+    "subtitle1": "",
+    "paragraph1": "As Warren Wiersbe (Be Committed: Doing God’s Will Whatever the Cost: Ruth & Esther) writes, When you go from Ruth to Esther, the atmosphere changes completely'",
+    "paragraph1b": "",
+    "quest1": "",
+    "list1": [
+      {
+        "item":"We go from a small Jewish village to a great Gentile city, Susa, the hub of a conquering empire"
+      },{
+        "item":"We go from a return to home for Naomi, and eventually for Ruth, to a stark and unforgiving exile in a corrupt land based on power, conquest, and shameless indulgence"
+      },{
+        "item":"We go from two kinsmen redeemers doing God’s business at the town gate to the decrees of a calculating king, ruling a vast territory"
+      },{
+        "item":"We go from the book of Ruth, where God is openly named, condemned, and praised, to the book of Esther, where God is not mentioned at all"
+      },{
+        "item":"Scholars generally agree that the book of Esther was written sometime between 500 and 330 BC. Authorship is unknown but, by the examination of the language, it is assumed that the author was someone living in exile."
+      },{
+        "item":"The events in Esther occur about 66 years after Cyrus the Great, king of Persia, issued his decree in 539 BC, allowing the Jews to return to Jerusalem, but as Karen H.Jobes notes in her commentary, Esther (The NIV Application Commentary), book of Esther does not mention of Jerusalem or the temple."
+      },{
+        "item":"Jobes and Iain M.Duguid (Esther & Ruth, Reformed Expository Commentary) both note that compared to the book of Daniel, which is also set in the court of a pagan king, no one offers a prayer in the book of Esther. There are no apocalyptic visions, no evident concern for the Law, and no obvious miracles."
+      },{
+        "item":"Jobes writes, “Because of the absence of religious values and the presence of sensuality and brutality, the book of Esther has posed a problem for interpreters throughout its history. For the first seven centuries of the Christian church, not one commentary was produced on this book. As far as we know, John Calvin never preached from Esther nor did he include it among his commentaries. Martine Luther denounced this book together with the apocryphal 2 Maccabees, saying of them, “I am so great an enemy to the second book of Maccabees, and to Esther, that I wish they had not come to us at all, for they have too many heathen unnaturalities.”  On the other hand, Moses Maimonides, the great 12th century Jewish philosopher, ranked it equal to the Pentateuch:  “When Messiah comes, the other books…may pass away, but the Torah and Esther will abide forever.”  Maimonides may have been thinking that just as God’s Law  (as expressed in the Torah) will stand forever so too does his promise to deliver God’s people , illustrated with compelling power by the story of Esther."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "path": "history",
+    "title": "history",
+    "book": "esther",
+    "verse": "esther",
+    "chapterFrom": "",
+    "chapterTo" : "",
+    "verseFrom": "",
+    "verseTo": "",
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+
+    "subtitle1": "",
+    "paragraph1": "The story of Ruth occurred during the time of Judges around 1100 BC. The story of Esther probably occurred during the reign of Xerxes I the Great, who ruled between 486 BC and 465 BC. To provide more context, David ruled between 1010 BC and 970 BC, and Daniel experienced exile and trial in Babylon, during the reign of Nebuchadnezzar in 600 BC.",
+    "paragraph1b": "",
+    "quest1": "",
+    "list1": [
+      {
+        "item":"Nebuchadnezzar, one of the greatest of the Babylonian, or Chaldean, kings ruled from 604 to 562 BC, during the time of Daniel. In 539 BC Cyrus the Great, king of greater Persia, defeated the Babylonians and incorporated their empire into his own, creating the greatest empire the world had yet seen. Cyrus also conquered the city of Babylon. His rule is documented in the book of Ezra. Ezra 1:1 says, “In the first year of Cyrus king of Persia, in order to fulfill the word of the LORD spoken to Jeremiah, the LORD moved the heart of Cyrus king of Persia to make a proclamation throughout his realm and to put it in writing.”"
+      },{
+        "item":"This decree permitted the followers of God, living in exile, to return to Jerusalem to rebuild the Temple. Many returned but not everyone did. Esther’s ancestors are among these who stayed in exile. Once of the questions raised in Esther is will God keep his covenant promises for those Jews who no longer live in the Promised Land?   One of the primary theological focuses for the book of Esther is that God fulfills his covenant promises across both history and the sea of imperfect human responses, by his greater and divine providence. Karen Jobes writes, “The great paradox of Esther is that God is omnipotently present even where God is most conspicuously absent.”"
+      },{
+        "item":"Cyrus the Great was followed by four other kings,  Cambyses II, Bardiya, Darius I the Great, and then King Xerxes who is the Xerxes of Esther, in 486 BC. He is the same Xerxes who did battle with the Spartans at Thermopylae, captured Athens, and whose fleet was soundly beaten by the Greeks at Salamis in 480 BC. Ezra 4:6 tells us that it is during Xerxes’ reign that Persian leaders began to strongly oppose the rebuilding of the Temple at Jerusalem. In less than 120 years, following the assassination of Xerxes in 465 BC, the Persian themselves would be conquered by Alexander the Great."
+      },{
+        "item":"Xerxes ruled from four cities, Babylon, Persepolis, Ecbatana, and Susa; with Susa being the most active. The king and his retinue would be found in Susa in the winter months, because in the summer it was too hot. Daniel 8:2 tells us that Daniel had a vision of himself in the citadel of Susa. Jewish and Arab traditions say that Daniel was buried in Susa. Today the remains of Susa lie within the borders of Iran."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "path": "kingsexcess",
+    "title": "king’s excess",
+    "book": "esther",
+    "verse": "esther 1:1-22",
+    "chapterFrom": 1,
+    "chapterTo" : 1,
+    "verseFrom": 1,
+    "verseTo": 22,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+
+    "subtitle1": "",
+    "paragraph1": "At the beginning of Esther full focus is on king Xerxes and his retinue.",
+    "paragraph1b": "",
+    "quest1": "What do we learn about Xerxes, his kingdom, and his closest advisors?",
+    "list1": [
+      {
+        "item":"Xerxes possesses great and formidable power, ruling over a vast domain, extending from the border of modern India, into Egypt, and beyond to modern Libya, Sudan, and Ethiopia (Cush)."
+      },{
+        "item":"He believed in the power of lavish and excessive display, creating a banquet for all of the military leaders and provincial rulers from across his empire."
+      },{
+        "item":"Warren Wiersbe notes that Xerxes probably brought his provincial civil and military leaders in on a rotating schedule, which is why the banquet lasted for nearly six months, with all of the wealth of empire arrayed to greet each of his guests. Verse four tells us that Xerxes put all of these riches on display to prove how great he was. What this shows us is that Xerxes is utterly selfish as to the needs of state or his people. All resources were focused on him and his desires regardless of cost or burden."
+      },{
+        "item":"Scripture does not tell us the precise purpose of this extended celebration but Herodotus, the Greek historian, may offer insight. Herodotus wrote that Xerxes conferred at length with his leaders concerning his plans to subdue both Greece and what is now most of modern Europe. So Xerxes was avidly focused on augmenting his power, and had grandiose notions as to what this would look like, in addition to demonstrating his greatness."
+      },{
+        "item":"Give him credit for being a planner. He staged this extended banquet, framed it with an extraordinary display of his wealth, and then culminated the entire event with a seven day banquet within the enclosed garden of his winter palace in Susa."
+      },{
+        "item":"The royal wine is abundantly served and Xerxes encourages his guests to drink way too much. This is designed to probe weaknesses, loosen tongues, and produce an artificial gratitude. And it seems to work. Chapter one offers no evidence that any of Xerxes’ leaders questioned his planning or the wisdom of this extended banquet."
+      },{
+        "item":"Xerxes himself overindulges. We know this because verse 10 tells us that on the seventh day, when the king was in high spirits from drinking, he commanded his seven eunuchs who formed the inner circle of his servants, to fetch Queen Vashti. So we have an insider’s view of Xerxes’ impulsive and imperious nature."
+      },{
+        "item":"He wants her there not because he misses her or values her. He wants to put her on display along with his wealth, because as verse 11 tells us, “she was lovely to look at.”"
+      },{
+        "item":"Vashti doesn’t; show up, and the implication is that she didn’t want to be displayed as a lovely possession in front of large numbers of filthy drunk men, including the king."
+      },{
+        "item":"Because Xerxes is a king and utterly self-regarding Queen Vashti’s refusal is not simply a family of squabble but a matter of state and the king’s power. She has refused to obey the king and must be dealt with. Her disobedience becomes grounds for admonishing all the women who are married to his military and civil leaders."
+      },{
+        "item":"Vashti is banned from the king’s presence and stripped of her title as Queen. Decrees are issued to the four corners of the kingdom demanding that men be given full respect and obedience as masters and rulers over their households. We see in this excess Xerxes’ great vanity, pomposity, and foolishness. He is a man without sound wisdom."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "path": "willoftheking",
+    "title": "the will of the king",
+    "book": "kings",
+    "verse": "esther 2:1-4",
+    "chapterFrom": 2,
+    "chapterTo" : 2,
+    "verseFrom": 1,
+    "verseTo": 4,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+
+    "subtitle1": "",
+    "paragraph1": "As we’ve already noted, God is not directly mentioned in Esther. The other thing that is missing from Esther is any extensive and direct reference to faith and emotion. The Book of Ruth gave us beautiful insight into the intersection between faith and emotion:  Ruth’s loyalty to Naomi, Naomi’s bitterness towards God, Boaz’s love for Ruth but determination to honor his faith. Esther gives us something different; the story of life lived at risk within a large, complex, and disregarding institution, in this case the Persian Empire.",
+    "paragraph1b": "Whether they are governments, corporations, empires, or kingdoms, large institutions, and those who have power within them, most often choose themselves, their own interests, and the interests of the institution first. In the Persian Empire, King Xerxes and his advisors chose the king’s interests and impulses first and them imposed these on the rest of the people including Esther. For individuals of faith who run up against the will, power, and self-justification that institutions and their rulers can manifest, choices may be few and unpleasant. This is Esther’s world. In addition she is not Joseph, she is not Daniel, she is not a man. No one is going to invite her to be the king’s chief advisor or to rule over his provinces.",
+    "quest1": "",
+    "list1": [
+      {
+        "item":"At the beginning of chapter two we get the sense of time passing between Queen Vashti’s banishment and Xerxes’ next act in this story. In fact Vashti’s refusal occurred in 483 BC, the third year of Xerxes’ reign, and Esther became queen around 479 BC. In the years in between Xerxes was waging war with the Greeks, first seeming to subdue them and then suffering a series of costly defeats. These losses damaged his army, his navy, his treasury, and his reputation. The Greek historian Herodotus observed that Xerxes’ life after these stark defeats was devoted to sexual overindulgence. In fact, despite all the virgins, concubines, and every conceivable luxury, Xerxes also slept with the wives of some of his military leaders, sparking a simmering resentment that would directly contribute to his assassination in 465 BC. (Karen H.Jobes, Esther: The NIV Application Commentary)"
+      },{
+        "item":"In verse 1 Xerxes’ reflects on Vashti’s betrayal - he is so egotistical he cannot let this go - but  it’s the king’s advisors who formulate and recommend the next steps. They suggest that the most beautiful virgins from across the entire empire be gathered by the officers in each province, and then sent to the ruling city of Susa, there to be gathered and managed by Hegai, one of the king’s chief eunuchs. The virgins would be prepared to the king’s exacting standards in terms of dress, grooming, and deportment. Then each virgin would sleep with the king, and the king would pick the one he liked best to replace Vashti as ‘queen.’  This is essentially formalized kidnapping and rape, and horrifying. It is the brutal prerogative of kings. When Israel wanted a king the prophet Samuel replied to them, beginning in I Samuel 8:10, that a king would take their sons, their daughters, the best of their harvests and fields, and their servants, eventually causing Israel to howl and regret the choice. These words came to Samuel directly from the Lord. In Persia we see this on a vast scale. Artaxerxes II, who ruled Persia from 404 BC to 358 BC (after the Xerxes of Esther), was reported to have more than 360 concubines. In addition Herodotus reports that more than 500 young boys were chosen each year to be castrated, usually against their will, to serve as eunuchs in the Persian palace complexes."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "path": "mordecaiandesther",
+    "title": "mordecai and esther",
+    "book": "esther",
+    "verse": "esther 2:5-8",
+    "chapterFrom": 2,
+    "chapterTo" : 2,
+    "verseFrom": 5,
+    "verseTo": 8,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "subtitle1": "we belong to god and his family",
+    "paragraph1": "Finally in verse 5 of chapter 2, Mordecai and Esther enter the narrative.",
+    "paragraph1b": "",
+    "quest1": "The writer describes them with special emphasis. What do we learn?",
+    "list1": [
+      {
+        "item":"First we learn about Mordecai. He is identified as a Jew living in the citadel of Susa. The citadel of Susa refers to Xerxes’ winter palace, not the greater city. This means that Mordecai was an official of some sort at the court of the king."
+      },{
+        "item":"Mordecai’s lineage is stated with care and we learn that he is from the tribe of Benjamin; and that his great-grandfather Kish was carried away from Jerusalem, just like Daniel, by Nebuchadnezzar. Kish was also the name of King Saul’s father, and Shemi, his grandfather, was the name of one of King David’s bitter opponents."
+      },{
+        "item":"Verse 6 also identifies that Kish was carried away from Jerusalem along with Jeconiah who was then king of Judah. This meant that Mordecai’s family was among the nobles and leaders of Jerusalem. Jeremiah 27: 19-22 says:"
+      }
+    ],
+    "quote1": "“(19) For thus says the LORD of hosts concerning the pillars, the sea, the stands, and the rest of the vessels that are left in this city, (20) which Nebuchadnezzar king of Babylon did not take away, when he took into exile from Jerusalem to Babylon Jeconiah the son of Jehoiakim, king of Judah, and all the nobles of Judah and Jerusalem— (21) thus says the LORD of hosts, the God of Israel, concerning the vessels that are left in the house of the LORD, in the house of the king of Judah, and in Jerusalem: (22) They shall be carried to Babylon and remain there until the day when I visit them, declares the LORD. Then I will bring them back and restore them to this place“",
+    "list2": [
+      {
+        "item":"Mordecai’s name is actually derived from a surprising Persian root, meaning a worshiper of Marduk, one of the Persian gods. An ancient cuneiform tablet found near Babylon mentions an official named Mardukaya who served in the early years of  Xerxes at the citadel of Susa. Some scholars identify this person with Mordecai. It is possible that Mordecai, like Daniel, had two names, one for use among the Persians and a second Jewish name."
+      },{
+        "item":"So Mordecai’s formidable Jewish ancestry and family connections are established, and Esther is identified within this history. She is an orphan, having lost both father and mother, and is the child of Mordecai’s uncle. Mordecai is Esther’s cousin and is raising her as his daughter. She also has two names, Hadassah, meaning ‘myrtle,’ and Esther, meaning ‘star’. The myrtle tree was common to the Middle East and had great significance; the prophet Zechariah had a vision of a horse and rider traveling among myrtle trees. The Israelites saw the myrtle as a symbol for beauty, love, sweetness, justice, and God’s blessing. This careful constructing of history tells that both Mordecai and Esther, despite exile, are part of God’s chosen people and belong to God."
+      },{
+        "item":"Esther is specifically identified in verse 7 as beautiful in both face and body, and because of this she was taken by Xerxes’ proxies and held in the custody of Hegai, in the palace harem at Susa. This had to be terrifying, forbidding, and discouraging. Hundreds of young women from many different cultures, speaking many different languages have been brought together for the sole purpose of having sex with Xerxes, perhaps only one time, to determine which is attractive enough to become his replacement for Vashti. The queen is distinguished only by her title and her looks. Even this is compromised because the Persians keep the palace continuously stocked with beautiful virgins and concubines, living there solely for the king’s pleasure."
+      }
+  ]
+  },
+  {
+    "id": 6,
+    "path": "prisonerinxerxesharem",
+    "title": "prisoner in xerxes' harem",
+    "book": "esther",
+    "verse": "esther 2:9-18",
+    "chapterFrom": 2,
+    "chapterTo" : 2,
+    "verseFrom": 9,
+    "verseTo": 18,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "",
+    "quest1": "In Ruth we saw a foreigner, Ruth the Moabitess, working hard to conform to Jewish Law and custom, in Esther we see a Jewish woman, Esther, who must deny her heritage. Do we see any evidence of God at work in this forsaken setting?  Several times we read that Esther has earned favor with others. What does this tell us about her character and behavior?",
+    "list1": [
+      {
+        "item":"Despite harrowing circumstances, Esther, much like Ruth, must have demonstrated a substantial trustworthiness, grace, humility, and interest in the well-being of others, in this case Hegai the eunuch, so much so that she won Hegai’s favor. This   ensured that she would have the best place to live in the harem, the support of seven maids from the king’s palace, the best food to eat, and the benefit of Hegai’s counsel in preparing over 12 months for her encounter with Xerxes."
+      },{
+        "item":"Verse 10 shares that Esther had hidden her Jewish heritage, at Mordecai’s instruction. Every day Mordecai walks to the region of the harem “to learn how Esther was and what was happening to her.”   Mordecai could only get this close if he were a fairly significant court official. It also tells us that that Mordecai was anxious, concerned, and fretful about Esther’s new job description. Mordecai knew what Xerxes was like, and he knew the dangers of palace life. Esther had probably shared her fears and unhappiness with Mordecai. Mordecai values her and doesn’t abandon her."
+      },{
+        "item":"When Esther’s time to sleep with Xerxes arrives she has the right to ask for anything to take to the king from the harem. This is sex on an industrial scale. Once a virgin sleeps  with the king she is then turned over to a different eunuch, Shaashgaz, and housed among the concubines, not among the virgins. She may not return to the king unless he specifically summons her. This is what Esther is headed towards. All of this violates Jewish law and she knows this. All she asks for is Hegai’s advice before going to the palace. It is in verse 15 we read that “Esther was winning favor in the eyes of all who saw her.”  What does this mean for a woman at this time?  Not that that she is a great warrior, prophet, or administrator. It means that her behavior is consistently beyond reproach, she treats others with respect and compassion, she is a good listener, and she earns the trust of others."
+      },{
+        "item":"At the beginning of verse 16 Esther is described as “the daughter of Abihail” mentioning her father’s name for the first time. Abihail means “strong father or strong cause.”  We get the impression from the careful depiction of Esther’s Jewish lineage that God’s values, the values he intended for the chosen people in the Promised Land, have in large degree traveled with her; that the faith and lives of her family, now dead or separated by exile have influenced her own life and faith, in ways that, although not directly addressed in the Book of Esther, are real and guiding, and open to the influence of God. These values are now lived out in an alien place, under the rule of an alien government. But God is not restricted by this or subject to its limits. He shapes his people in foreign places, just as he did with Joseph, Daniel, and Paul."
+      },{
+        "item":"When Esther went to Xerxes, he was quickly smitten with her, and then experiences ‘love’; but not love as God defines it or as we understand it. She “won grace and favor in his sight more than the other virgins….”  Grace and favor describe an attitude more profound than the sheer carnal appreciation Xerxes had directed at Vashti. Esther is a gorgeous woman but there is something more at work in her that holds the king’s interest. He will move on and sleep with countless other women (see verse 19). What does this sense of greater appreciation mean for a king like Xerxes?  For one thing it does mean that Esther is spectacularly gorgeous and makes Xerxes look good by the sheer presence of her beauty; it also means that in her words, gestures, and actions he probably finds someone he can trust not to undermine him, or make him look bad, someone who is composed and understanding, who is stable and mature and supports him, and will be loyal; and someone who will not build her own competing power base. There is a depth to her personality and presence that we may credit to God and the godly examples set by others around her. This is an excellent lesson for us when we face powerful people, organizations, or opposition that seeks to demean, dehumanize, or deny the very real and revolutionary moral force of Christ. Our faith by itself abiding with God, Christ, and the Holy Spirit has real influence and effect and is evident to those around  us; even to those who oppose us."
+      },{
+        "item":"Once Xerxes chooses Esther he becomes expansive and celebratory. He gives a great feast for all of his officials and servants; he forgives taxes throughout the empire, and gives generous gifts. What we do not see is any record of excess by Esther. The feast is “Esther’s feast,’ the royal crown is placed on her head, and she is officially the queen. A great tide of wealth, celebrity, and fawning regard now washes over her, but we do not see her acting in arrogant, high-handed ways;  or her striving to make herself the center of attention."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "path": "plotsandvendettas",
+    "title": "plots and vendettas",
+    "book": "esther",
+    "verse": "esther 2:19-4:3",
+    "chapterFrom": 2,
+    "verseFrom": 19,
+    "chapterTo" : 4,
+    "verseTo": 3,
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "Following the great and extensive feast given for Esther after she has been chosen to replace Vashti, she settles into the uncertain and dangerous role of begin the titular queen to an impulsive and powerful king. Esther can only enter Xerxes’ presence if he summons her; to appear unannounced is an automatic death sentence. She doesn’t see the king for long stretches of time.",
+    "paragraph1b": "",
+    "quest1": "",
+    "list1": [
+        {
+        "item":"In verse 19 of chapter two we see a developing plot against Xerxes. Neither Esther or Mordecai, at Mordecai’s instruction, have revealed that they are Jews. The second gathering of virgins means that Xerxes is in the process of restocking his harem. It also means that time has passed, perhaps several years. 3:7 tells us that five years have passed since Esther became queen. Mordecai is sitting at the king’s gate which means that he is an official of the court. Mordecai hears two of the king’s eunuchs, Bigthana and Teresh, plotting to kill the king."
+        },{
+        "item":"Why do they want to kill Xerxes?  We don’t know. Jewish interpretation says it may have been because Xerxes chose Esther as queen, or it may have been because Mordecai had a good job in the king’s court. It may have been because Xerxes had foolishly overextended the empire by trying to invade Greece, resulting in humiliating defeats, the deaths of many Persian officers and aristocrats, and bankruptcy."
+        },{
+        "item":"Mordecai discloses the plot to Esther who has an opportunity to share it with Xerxes, and credits Mordecai. Further investigation reveals the truth of the allegations, and Bigthana and Teresh are impaled on stakes. All of this was carefully captured by Xerxes’ scribes in the book of the annals which served as a record of Xerxes’ reign, created while the king was present so that there could be no unfavorable interpretations."
+        }
+      ],
+    "quest2": "Should Mordecai have disclosed the plot?  Xerxes was a rollicking pagan who had taken Mordecai’s cousin from him. He did not know God.",
+    "list2": [
+      {
+      "item":"The result was that Xerxes life was spared and so was Esther’s. If Xerxes had been assassinated Esther would have been killed soon thereafter. If the king is assassinated then the assassins have to kill everyone who supports the king,  who may pose a threat, or who has the potential to carry on the king’s family name."
+      },{
+      "item":"Christ himself reminds us in Matthew 22:21 to “Therefore render to Caesar the things that are Caesar’s, and to God the things that are God’s.”   Mordecai has demonstrated a clear loyalty to Xerxes and to Esther in her new role. He shows himself to be trustworthy, and, although Esther gives him credit for disclosing the plot, does not seek his own gain."
+      },{
+      "item":"In I Samuel 24:6 David rebuked those who would do harm to Saul, even though Saul had sought with energy and obsessiveness to hunt and kill David, and had been condemned by Samuel as too fundamentally disobedient to remain king of Israel."
+      }
+    ],
+    "paragraph3": "In this moment Mordecai’s loyalty goes unrewarded. We don’t know why. It is a beautiful and modern illustration of the inconstant nature of power in the hands of people who have too much of it, and in this case a distracted king. Xerxes chooses instead to honor Haman, son of Hammaedatha, the Agagite, instead. Haman ascends to become Xerxes chief advisor, one of only seven men able to have direct access to the king.",
+    "quest3": "What does it mean that he is described as an Agagite?",
+    "list3": [
+        {
+        "item":"It means that he is probably a descendant of Agag, king of the Amalekites who were blood foes of the Israelites. Amelek was a son of Esau’s first born son Eliphaz and the concubine Timna. The Amalekites were a nomadic tribe in southern Palestine and from the beginning enemies of the Israelites, first attacking them near Sinai after they had left Egypt. "
+        },{
+        "item":"Agag was king of the Amalekites during the reign of Saul and had been a cruel foe of the Israelites. Rabbinic tradition teaches that he tortured and mutilated Jews who feel into his hands as prisoners. God through the prophet Samuel, in I Samuel 15:2, ordered Saul to wipe out the Amalekites but Saul disobeyed this command, taking Agag prisoner. Samuel condemned Saul’s disobedience and cut Agag into pieces in front of Saul. Saul was from the tribe of Benjamin and Mordecai was also from the tribe of Benjamin."
+        },{
+        "item":"If Haman was indeed an ancestor of Agag then he was one of the consequences of Saul’s disobedience. Mordecai would have known this."
+        },{
+        "item":"It also reminds us that the Persian Empire had conquered both Israel and the enemies of Israel, and that the hostility did not end with conquest or changes in geographic location."
+        }
+    ],
+    "paragraph4": "So great is Haman’s temporary honor that Xerxes commands everyone to bow down  to Haman as if he were the king himself. Everyone does this except for Mordecai who won’t do it, and who violates his own counsel by disclosing that he is indeed a Jew. The other officials at the gate observe this behavior and try as best they may to intercede, asking Mordecai day after day why he won’t joint them in honoring Haman. Mordecai refuses their inquiry and counsel. The royal officials then do their craven best to instigate trouble by telling Haman about Mordecai’s disobedience. Haman is furious; not simply at Mordecai but at all Jews. Verse six tells us that “Haman looked for a way to destroy all Mordechai’s people, the Jews, throughout the whole kingdom of Xerxes.”  He casts lots to determine which day and month to start a massacre of the Jewish people",
+    "quest4": "Was Mordecai being wise or foolish in not bowing down to Haman, and why did he choose not to bow down?",
+    "list4": [
+        {
+        "item":"Remember that Daniel was condemned to the lion’s den because he would not cease his open prayers to God; violating King Darius’ decree that no one should pray to or petition any other god or human other than King Darius for 30 days. He would not disavow God or his identity as one of God’s chosen people; even though he had succeeded and prospered in a strange land as an exile."
+        },{
+        "item":"We do not know why Haman wouldn’t bow down to Haman although we may make a strong inference. In chapter 3 Mordecai disclosed that was a Jew after telling Esther not to share this information. We may infer that one of the reasons that Mordecai had for not bowing down was because, in fact, he was a Jew, a believer in the one true God, and one of God’s chosen people. Haman is clearly identified as an ancestor of Agag, an Amalekite, a people clear in their status as enemies of God and his chosen people. Mordecai may be choosing not to bow down to a man and a people so at odds with the God he worships."
+        },{
+        "item":"What we do know is that Haman responded with irrational and limitless hatred, plotting to kill the entire exiled Jewish population within the Persian Empire which was a vast undertaking, requiring Haman to put his own reputation on the line."
+        }
+    ],
+    "paragraph5": "In these verses there is a lesson for us about in the true nature of anti-Semitism and the hatred of God in Haman’s actions that we should remember in dealing with enemies of Christ and God.",
+    "quest5": "What do we see?",
+    "list5": [
+        {
+        "item":"Haman’s hatred is purely against God’s chosen people but he changes his approach for Xerxes to sound more reasonable, claiming that the Jews, not as individuals, but as a people, are disobeying the king’s law and are enemies of the state. The accusations are vague and broad and made in private."
+        },{
+        "item":"He appeals to the king’s interest and to the potential of vast economic gain to get the king’s permission and he promises to carry out the massacre himself so that the king doesn’t feel a sense of direct involvement."
+        },{
+        "item":"Haman uses the power of the king and the power of the state to give legitimacy to mass murder and wrongdoing."
+        },{
+        "item":"Haman uses his office and authority to involve many others in his plot. Verses 12 and 13 tell us that Haman’s orders go to all of the satraps and governors of all the provinces, and all the nobles of all the peoples, carefully written in the language of each province,  making it law that all the Jews - young, old, men and women - should be slain on a given day in a given month."
+        },{
+        "item":"We know from reading the scripture that Haman’s heart is black with evil and that his hatred is the hatred of God himself, but at the time it was masked by his legitimate office and his seeming genuine concern for the king. After putting all of this in motion, verse 15 tells us that Haman sits down to have a celebratory drink. By comparison, the people of the city of Susa itself are bewildered by this blood-thirsty edict."
+        },{
+        "item":"There are those who hate God, hate his people, Jew or Christian, and will do or say anything to discredit them. Sometimes these are people we would hold in high esteem because of their success, intelligence, or power. We must be vigilant and wise in discerning their intentions."
+        },{
+        "item":"This is also terrifying. A plan so vast and so powerfully supported by the king and the king’s principal advisor would seem impossible to defeat. Indeed, we see, at the beginning of chapter 4, the deep grief, mourning, and fear of Mordecai and all the Jewish people in Persia as news of the new law travels. But God is present, even in utter bleakness and the ruthless power of a godless state. King Darius himself, not a believer, testified to the true power of God after witnessing Daniel’s example and deliverance in Daniel, chapter 6:"
+        }
+    ],
+    "quote5": "(25) Then King Darius wrote to all the nations and peoples of every language in all the earth: “May you prosper greatly! (26) I issue a decree that in every part of my kingdom people must fear and reverence the God of Daniel. For he is the living God and he endures forever; his kingdom will not be destroyed, his dominion will never end. (27) He rescues and he saves; he performs signs and wonders in the heavens and on the earth. He has rescued Daniel from the power of the lions.”"
+  },
+  {
+    "id": 8,
+    "path": "whodefinesyourcharacter",
+    "title": "who defines your character?",
+    "book": "esther",
+    "verse": "esther 4:3-5:14",
+    "chapterFrom": 4,
+    "verseFrom": 3,
+    "chapterTo" : 5,
+    "verseTo": 14,
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+    "subtitle1": "",
+    "paragraph1": "Haman has started the great machinery of empire to exterminate the Jews. The plot has become an official state act thanks to Xerxes’ foolishly given signet ring; and Haman and Xerxes smugly adjourn for self-congratulatory drinking, while Susa and the broader empire are bewildered by the edict. Now Mordecai and Esther must choose what they will do, who they will trust, and who they will be in the face of what seems certain death for the exiled Jewish population.",
+    "paragraph1b": "",
+    "quest1": "Of all the choices Mordecai can make he chooses at this moment to openly mourn and lament. And he’s not quiet about it. He rends his clothes and puts on sackcloth – a course uncomfortable cloth made of goat’s hair - and ashes. He goes out into the city of Susa “wailing loudly and bitterly.”  Why?  This can’t be a safe activity for him. In fact verse 2 tells us that he can go to the king’s gate but no farther because “no one clothed in sackcloth was allowed to enter in.”  We have not only Mordecai’s display but the Jews across the empire join him in exhibiting great mourning “with fasting, weeping, and wailing…”",
+    "list1": [
+        {
+        "item":"In Daniel 9:3 Daniel writes that when he learned from the prophet Jeremiah that the desolation of Jerusalem would last for 70 years, “I turned to the Lord God and pleaded with him in prayer and petition, in fasting, and in sackcloth and ashes.”  In the long prayer that follows he first repents before asking anything of God. When he finally does ask God for help, he says, “We do not make requests of you because we are righteous, but because of your great mercy.” (Daniel 9:18)"
+        },{
+        "item":"In one of the earliest references to sackcloth and ashes Jacob, in Genesis 37:34 wears both when he believes his son Joseph to be dead. This is pure mourning. But in Jonah 3, when the Assyrian people of Nineveh hear from Jonah that God will destroy them for their wickedness, cruelty, and worship of idols, the king orders everyone, including the livestock, to put on sackcloth as a sign of both repentance and petition for mercy. When God witnesses the genuineness and extremity of their mourning he extends mercy to Nineveh. This occurred between 800 and 750 BC, at least 270 years before the events of Esther. (Jonah 3:10)"
+        },{
+        "item":"There is a strong parallel between the language of Esther in these verses and the prophet Joel, a text probably dating from 836-797 BC, during the reign of King Joash and prior to the time of exile. Joel 2:12-14 says:  “Even now,” declares the LORD, return to me with all your heart, with fasting and weeping and mourning. (13) Rend your heart and not your garments. Return to the LORD your God, for he is gracious and compassionate, slow to anger and abounding in love, and he relents from sending calamity. (14) Who knows? He may turn and relent and leave behind a blessing—…  God asks for his people to seek him with a genuine repentance, both in act and in heart. In what is a quite stunning passage at the start of chapter 4 Mordecai and his fellow Jews in exile do exactly this, declaring their identity as God’s chosen people, in trouble because of their misdeeds, needing God’s mercy and recognizing the need for repentance; even while living in powerful grip of a foreign empire."
+        }
+    ],
+    "paragraph2": "When Esther hears of this she has a choice to make. She can ignore it and rely on the fact that she is queen and accorded a certain status, comfort, and protection, not as a Jew, but as a Persian, or she can acknowledge Mordecai’s dramatic and open lamentation and automatically put herself at risk. First she leans strongly to the first option. She sends respectable clothes to Mordecai. The implicit message in this is “stop making a spectacle of yourself.”  When Mordecai refuses, Esther summons Hathach, the eunuch assigned to her, to meet with Mordecai beyond the king’s gate. Mordecai gives Hathach full disclosure of Haman’s plot, and Hathach takes the information back to Esther, suggesting that Esther’s isolation in the palace is so severe that she hadn’t heard this before.",
+    "quest2": "Esther’s response to all this is very human and very like us, and we need to understand her reaction. What is it?",
+    "list2": [
+        {
+        "item":"Esther’s first message back to Mordecai is something like this, ‘I can’t help you and your request is unreasonable. Everyone, including you, knows that if I approach the king without being summoned I will be killed immediately unless the king extends, in that moment, his golden scepter. You know and I know that that doesn’t happen. Xerxes is not the model of kindness, patience, or stability. You assume too much. My influence is not that great. I have no power. Xerxes will not listen to me even if, by some miracle, I’m not killed for trying to speak to him. You need to know that I haven’t seen him for 30 days. Just think about that and figure it out. My life isn’t as easy as you think. Xerxes doesn’t need me, value me, or want me. I am helpless.’"
+        },{
+        "item":"This careful review of obstacles and fears is how we often react when God brings his greater purposes to us to accomplish. This does not thwart God. He understands our fears and is patient and merciful to work through them with us."
+        }
+    ],
+    "paragraph3": "When Mordecai hears this he is not impressed or discouraged. He sends a pointed message back to Esther. ",
+    "quest3": "What is Mordecai’s response and is he trying to threaten Esther?",
+    "list3": [
+        {
+        "item":"Some commentators conclude that Mordecai’s message back to Esther is a threat to reveal her identity as a Jew. I don’t think that the language or Mordecai’s actions reflect this. Mordecai’s message is harsh and direct but in line with God’s own view."
+        },{
+        "item":"Mordecai says ‘don’t think that the palace grants you an inviolable safety, or a safety that you should trust more than God.’"
+        },
+        {
+        "item":"Mordecai is clear in stating that God’s intention is to work through those who believe in him and that this is a serious calling. “For if you remain silent at this time, relief, and deliverance for the Jews will arise from another place, but you and your father’s family will perish.”   This last statement can be taken two ways. If Esther does nothing then she will have rejected the work that God has chosen her to do and may simply face the consequences of the violence she permits to go forward. The other possibility is that inaction by Esther is a declaration that she has chosen her Persian identity and a pagan life causing her identity and her father’s household identity as part of God’s chosen people to perish."
+        },{
+        "item":"Mordecai closes with a clear statement of how God works. “And who knows but that you have come to royal position for such a time as this?”  Like Joseph and Daniel before her Esther has been raised up by God in an impossibly foreign culture in order to accomplish God’s specific purposes. Mordecai’s message to Esther is ‘don’t miss out on God’s larger purpose.’  Don’t miss out on the extraordinary specialness that God has designed for you.’   God is the great builder and the most creative being and will accomplish his purposes. He longs for us to join him, and pursues us. He leaves the door open for us as long as he can, but when the moment comes he will find others to do his work if he needs to. "
+        },{
+        "item":"Mordecai’s words are in fact received by Esther in this spirit. If his words were meant as a threat she could have had him killed or accused him of treason; or simply ignored him. Mordecai really never had substantial access to Xerxes and now that Haman hates him, and he is outside the gate in mourning, he has no  chance of getting a creditable message to the king. Esther would know this. Instead she asks for fasting and the implied prayers that would go with this. Some commentators argue that because prayer and faith are not directly mentioned here, then they did not occur. I think what we are seeing here is simply the guarded behavior of a people in exile. It would be dangerous to mention prayer or God in the open, and especially to one of the king’s eunuchs who is serving as messenger. Privacy of action and conversation generally did not happen as we understand them. Living spaces were smaller and everyone saw who you talked to and met with. Esther’s request for fasting implies the prayer that Jews would know to offer."
+        }
+    ],
+    "paragraph4": "When the third day arrived Esther put on her royal robes to remind Xerxes that she is simply not a stray concubine but the queen. She must, in this moment, strongly feel the risk that she is taking (“And if I perish, I perish.”). Esther has not seen Xerxes for at least 33 days now, and has no idea what his mood will be or his receptivity. She knows that Xerxes banished Vashti for the simple act of not showing up naked at a drunken party. Now she will violate all the rules and common sense itself by showing up uninvited.",
+    "paragraph4b": "Esther stands so that Xerxes can see her, at the entrance to the king’s hall, but does not approach. Xerxes is pleased to see her and holds out the scepter, indicating that Esther will survive this meeting. Karen H. Jobes (The NIV Application Commentary: Esther) says that Esther’s name is mentioned 37 times in the Book of Esther, and 14 of these times she is referred to as Queen Esther. Thirteen of these occur after Esther 5:1.",
+    "quest4": "What does this mean?",
+    "list4": [
+        {
+        "item":"By taking this very risk Esther is acknowledging that her allegiance is to the God of Israel and his purposes; claiming her greater, divinely intended identity as God’s woman."
+        },{
+        "item":"Her purpose and character become greater than herself. Karen H. Jobes writes that in  claiming her identity as one of God’s chosen people, Esther like Mordecai is energized  and acts with a greater sense of direction and purpose."
+        },{
+        "item":"Obedience brings us into alignment with God’s own character and personality. When we most surrender ourselves to God we are at our best. God’s purposes are perfect, wise, merciful, lasting, and majestic. We should pursue them with all we have. "
+        }
+    ],
+    "paragraph5": "Xerxes is filled with generosity and indicates that Esther may have just about anything she wants. She requests that Xerxes and Haman attend, on that day, a banquet she has prepared for them. At the banquet, and after some drinking, the king asks Esther to share her request. Esther asks that Xerxes and Haman return the next day for a second banquet and then she will share her request. Xerxes happily agrees.",
+    "paragraph5b": "We don’t know why exactly Esther delays but we can infer some reasons. First she is helping the king to get to know her again, after a long absence, so that he will remember his trust in her and his attraction to and affection for her, when she makes her request. Second it may be God himself who keeps Xerxes awake that night, and who points out the valuable service that Mordecai had rendered.",
+    "paragraph5c": "Finally we see the vanity, arrogance, and cruelty of Haman.",
+    "quest5": "Compare Haman’s behavior to Esther’s and Mordecai’s; how are they different?",
+    "list5": [
+        {
+        "item":"Haman is utterly and selfishly concerned with his own rights and wrongs, and his own overinflated sense of the respect owed him. He is filled with rage when, returning from the banquet, he sees Mordecai who, again, does not rise to bow. He does not notice at all that Mordecai is arrayed in sackcloth and ashes."
+        },{
+        "item":"When he arrives home Haman is filled with overweening pride. He gathers friends and his wife Zeresh to boast about his power, wealth, possessions, and favor with the king and queen. He has no interest in the well-being of anyone else. But he must point out to everyone that all of this is of no value if that wretched Mordecai won’t bow down."
+        },{
+        "item":"Zeresh and all his friends mirror Haman’s hate and corrupt heart and soul. They recommend that Haman have Mordecai impaled on a stake seventy-five feet high, so that everyone can see the suffering earned by one who does not pay Haman respect. This defines fallen humanity at its worst. It requires us to say ‘my power and wealth and the harm done to you, whether injury or death, define my worth and greatness.’  Compare this to the selfless courage and wisdom required by God, and imperfectly but powerfully acted on by Esther and Mordecai. They serve the LORD with humility and discernment."
+        }
+    ]
+  },
+  {
+    "id": 9,
+    "path": "godsremarkabledesign",
+    "title": "god's remarkable design",
+    "book": "esther",
+    "verse": "esther 6:1-3",
+    "chapterFrom": 6,
+    "chapterTo" : 6,
+    "verseFrom": 1,
+    "verseTo": 14,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "What makes Esther’s courage in approaching Xerxes on behalf of Mordecai and the Jews living in exile even more remarkable is the intentional isolation she has been forced to live in. She is kept apart from the king for long stretches of time, and purposefully shielded from news of the world around her. Esther did not know about Haman’s well publicized edict commanding extermination of the Jews until Mordecai shared it with her through the court eunuch Hathatch. Esther’s life is defined by leisure, banquets, the excessive drinking that the Persian’s  loved, and a complete lack of privacy as she lived out her life in the presence of a host of servants; some spying on behalf of the king, and others spying on behalf of the king’s inner circle. The culture of Xerxes’ court was not designed to encourage the power and prestige of women but to minimize them. It would have been easy for Esther to be numbed by all this, and reduced to passive inaction, but she rises above the corrupting softness and indulgence, and risks all in the name of God and his chosen people. We see in her actions the reflection of David’s own journey and his words in Psalm 86, words Mordecai and Esther may have known :  ",
+    "quote1": "“(14) O God, arrogant men attack me;  a gang of ruthless men, who do not respect you, seek my life. (15) But you, O Lord, are a compassionate and merciful God. You are patient and demonstrate great loyal love and faithfulness. (16) Turn toward me and have mercy on me! Give your servant your strength! Deliver your slave! (17) Show me evidence of your favor!”",
+    "paragraph2": "That night, after the first banquet, Xerxes’ cannot sleep, so he has the chronicles of his reign read to him. This is a poignant moment. You can almost hear Xerxes’ longing for significance and affirmation in commanding this reading:  ‘Have I been a good king? Will I be remembered?’ In Xerxes we see earthly power without God. Even this only leads to corruption, decay, and death. Xerxes has a sense of this however brief. God is near him this night.",
+    "paragraph2b": "Remember that the chronicle is always updated in the king’s presence so the story it tells is designed to be flattering to the king. Xerxes commands the attendants to read, going back at least five years before, because the record recounts the saving service done by Mordecai in disclosing the plan by Bigthana and Teresh, two of Xerxes’ trusted guards, to assassinate him. He is startled afresh by the account and wants to know immediately if Mordecai was ever rewarded. God has used this moment with exquisite timing. Xerxes is listening, open, sober, and there isn’t that vast noise of his court trying to influence him. He’s thinking about his own legacy and mortality as king, and the perfect opportunity arises for him to confirm his power, his largess and liberality, and to cement the loyal of one of his subjects by finally rewarding Mordecai. It’s the sort of impulsive behavior we have seen repeatedly in Xerxes, but this time God uses that character flaw to accomplish his specific purposes.",
+    "quest2": "This is a pivotal moment that begins the decisive shift of power and influence away from Haman and to Esther, Mordecai and the Jews. What does this teach us?",
+    "list2": [
+      {
+        "bold": "God can reach anyone at any time. ",
+        "item":"He is not subject to our schedules or limited imaginations. In this moment of great influence, Xerxes is about alone as he ever is, trying to sleep and failing. There are no state dinners, no formal meetings, no phalanx of advisors, or intricate plots. There is a king in his sleeping attire reminded of the extraordinary good service rendered by one of God’s people five years before. Nor does God need for Xerxes’ to suddenly become godly, good, or wise; he uses Xerxes’ own nature to accomplish his greater purpose which is to bring attention to Mordecai and Mordecai’s faithfulness which will help lead to deliverance for the exiled  Jews."
+      },{
+        "bold": "The works we, as believers, do in God’s name never go to waste.",
+        "item":"Sometimes we think God is not listening or that we have failed because we don’t get the effect or result we long for, at the moment we want it. God’s view is much longer than ours. When Mordecai saved the king from assassination and received no recognition in return, and then had to watch Haman’s elevation, he must have felt that God was ignoring him and the complete lack of any justice for his faithfulness. Five years later God directs Xerxes’ sleepy mind to Mordecai’s service and the result is far more powerful and useful than anything Mordecai could have imagined or wanted."
+      },{
+        "bold": "Our confidence should first be in God and not our own design.",
+        "item":"The Book of Esther is thick with plotting, maneuvering, and state craft but neither Mordecai nor Esther could have predicted or engineered the outcome that God brought about."
+      },{
+        "bold": "We should not take God’s intervention for granted or lightly assume that we may predict it. We need to seek him with faithfulness, persistence, and humility and should not be put off by the doubts or dry times that will certainly occur. ",
+        "item":"Christ gave us the model for this in the parable of the persistent widow in Luke 18:1-8:",
+        "quote": "Then Jesus told them a parable to show them they should always pray and not lose heart. (2) He said, “In a certain city there was a judge who neither feared God nor respected people. (3) There was also a widow in that city who kept coming to him and saying, ‘Give me justice against my adversary.’ (4) For a while he refused, but later on he said to himself, ‘Though I neither fear God nor have regard for people, (5) yet because this widow keeps on bothering me, I will give her justice, or in the end she will wear me out by her unending pleas.’” (6) And the Lord said, “Listen to what the unrighteous judge says! (7) Won’t God give justice to his chosen ones, who cry out to him day and night? Will he delay long to help them? (8) I tell you, he will give them justice speedily. Nevertheless, when the Son of Man comes, will he find faith on earth?”",
+        "item2":"The widow is not presented in an endearing way and the judge despises her and ignores her as long as he can. Yet, said God, I listen, respond, and dispense mercy to you who believe in me in moments just like these, and with a motive driven by my love for you; don’t abandon your faith."
+      },{
+        "bold": "Isaiah 55: 3, 4 & 6-9 capture God’s greater design in God’s own voice with startling power:",
+        "quote":"Pay attention and come to me!  Listen, so you can live! Then I will make an unconditional covenantal promise to you, just like the reliable covenantal promises I made to David. (4) Look, I made him a witness to nations, a ruler and commander of nations….(6) Seek the LORD while he makes himself available; call to him while he is nearby!  (7) The wicked need to abandon their lifestyle and sinful people their plans. They should return to the LORD, and he will show mercy to them, and to their God, for he will freely forgive them. (8) “Indeed, my plans are not like your plans, and my deeds are not like your deeds, (9) for just as the sky is higher than the earth, so my deeds are superior to your deeds and my plans superior to your plans.”"
+      }
+    ],
+    "paragraph3": "Ironically Haman cannot wait to have Mordecai impaled, so is waiting to see Xerxes’ at the crack of dawn. He has already authorized construction of the gallows.",
+    "quest3": "What do we need to understand about the true character of the wicked?",
+    "list3": [
+        {
+        "item":"Psalm 36: 1-4 gives us extraordinary insight. It’s written by David and it reflects a revelation that God gave David concerning the true character of the wicked:",
+        "quote":"“(1) An evil man is rebellious to the core. He does not fear God, (2) for he is too proud to recognize and give up his sin. (3) The words he speaks are sinful and deceitful; he does not care about doing what is wise and right. (4) He plans ways to sin while he lies in bed; he is committed to a sinful lifestyle; he does not reject what is evil.”",
+        "item2": "This is a perfect rendering of Haman’s character and heart. He is obsessed with his power and with doing harm to those who don’t fear or respect it. He hates the Israelites because, as God’s chosen people, they are his hereditary enemies, and he has committed his full influence and resources to destroying them. He literally can’t wait to do the next bad thing. Evil drive him."
+        },{
+        "item":"What is the answer to the formidable and active impulse of the wicked to do harm and to slander the name of God?  David also supplies the answer in Psalm 36:5-10:",
+        "quote":"“O LORD, your loyal love reaches to the sky; your faithfulness to the clouds. (6) Your justice is like the highest mountains, your fairness like the deepest sea; you preserve mankind and the animal kingdom. (7) How precious is your loyal love, O God! The human race finds shelter under your wings. (8) They are filled with food from your house, and you allow them to drink from the river of your delicacies. (9) For you are the one who gives and sustains life. (10) Extend your loyal love to your faithful followers, and vindicate the morally upright!” ",
+        "item2": "God’s love and justice are our refuge."
+        }
+    ]
+  },
+  {
+    "id": 10,
+    "path": "destructionofprideevil",
+    "title": "the destruction of pride and evil",
+    "book": "esther",
+    "verse": "esther 6:4-14",
+    "chapterFrom": 6,
+    "verseFrom": 4,
+    "chapterTo" : 6,
+    "verseTo": 14,
+    
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "Haman, like Xerxes, has probably been up all night, not wondering if he has been a wise ruler but ruthlessly commissioning and overseeing the construction of a gallows 75 feet tall on which to impale Mordecai. To provide some perspective, 75 feet is approximately seven stories tall. The White House is 70 feet tall and the Pentagon is 77 feet tall. Then Haman arrives at the king’s palace as early as possible, while most of the world is still sleeping, seeking a private audience with the king to obtain Mordecai’s immediate death. On its face and by the world’s terms this is daunting. Evil’s agent is quite formidable. What we see in Haman is someone who is incredibly active, organized, decisive, bold, and energetic in pursuing his self-interests and his enemies. He is the antithesis of what Christ wants us to be. We often encounter these people in our own lives. Sometimes, even as believers, we are these people. It is easy to demonize Haman, he is very much an agent of evil, but he is also very human.",
+    "quest1": "This is a pivotal moment that begins the decisive shift of power and influence away from Haman and to Esther, Mordecai and the Jews. What does this teach us?",
+    "list1": [
+      {
+        "bold": "Pride.",
+        "item":"Haman is consumed by his own sense of self-importance and whether everyone around acknowledges that self-importance on terms that Haman approves. Anything less is a mortal affront and must be crushed. Haman doesn’t take counsel from anyone else unless it aligns with his own greed, pride, and hatred. He arrives at the palace alone seeking to further his own agenda in private. As followers of Christ we are called on to live in the light, to protect the well-begin of others, and to be honorable in our dealings, not putting ourselves first. Proverbs 18, verses 2,3, 7, and 12, says:",
+        "quote": "“Whoever isolates himself seeks his own desire;   he breaks out against all sound judgment. (2) A fool takes no pleasure in understanding,but only in expressing his opinion. (3) When wickedness comes, contempt comes also, and with dishonor comes disgrace…. (7) A fool's mouth is his ruin, and his lips are a snare to his soul…. (12) Before destruction a man's heart is haughty,but humility comes before honor.”"
+      },{
+        "bold": "Anger and dislike.",
+        "item":"Haman dislikes Mordecai and is rubbed the wrong way every time he sees Mordecai. Haman enjoys and is energized by his dislike and loves to discuss it with others (“that Jew Mordecai”), as he did with his wife and friends the evening before. We do the same thing. It is such an easy and pleasurable reflex to run down those who have wronged us. 1 John 2:9-12 says this:",
+        "quote": "“(9) Whoever says he is in the light and hates his brother is still in darkness. (10) Whoever loves his brother abides in the light, and in him[b] there is no cause for stumbling. (11) But whoever hates his brother is in the darkness and walks in the darkness, and does not know where he is going, because the darkness has blinded his eye.”",
+        "item2":"If he entertain and nurture our hatred then we blind ourselves to what Christ has to share with us. Indeed Haman is blind to what is really going on, and hasn’t a clue that Xerxes is seeking honor for someone other than him. I Peter 4:8-11 tells us how we need to behave to avoid the Haman trap,",
+        "quote2": "“(8) Above all, keep loving one another earnestly, since love covers a multitude of sins. (9) Show hospitality to one another without grumbling. (10) As each has received a gift, use it to serve one another, as good stewards of God's varied grace: (11) whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies—in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion forever and ever. Amen.”"
+      },{
+        "bold": "Corrupt Impulse.",
+        "item":"Haman gives in to how he feels and imposes this as his world view. Remember that as he recounts all of his power, wealth, and prestige Haman also says, in  Esther 5:13,",
+        "quote": "“But all this gives me no satisfaction as long as I see that Mordecai sitting at the king’s gate.”",
+        "item2":"It’s easy to despise Haman for this ridiculous wounded pride but we can fall into the same trap. Haman wants nothing to do with God. He is God’s enemy. We, as believers, are especially in danger when we rationalize our impulsive acts and say that we are doing the will of Christ. We must be vigilant in avoiding this and examining our motives. 1 Peter 5:8 says,",
+        "quote2": "“Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour”",
+        "item3":"2 Timothy 1:7 says,",
+        "quote3": "“For God gave us a spirit not of fear but of power and love and self-control.”",
+        "item4":"Proverbs 12:32 says,",
+        "quote4": "“Whoever is slow to anger is better than the mighty, and he who rules his spirit than he who takes a city.”",
+        "item5":"We have a gift beyond measure in in the Holy Spirit, and growing identity with the character of Christ. We must guard this gift."
+      },{
+        "bold": "Contrast Haman with Mordecai’s behavior:",
+        "item":"Haman is forced to publicly honor Mordecai but Mordecai does nothing to aggrandize himself or to further his own position. Nor is he obsessed with Haman. After the parade honoring Mordecai, Esther 6:12-13 tells us,",
+        "quote": "“Afterward Mordecai retuned to the king’s gate. But Haman rushed home with his head covered in grief, and told Zeresh his wife and all his friends everything that had happened.”",
+        "item2":"Not so for Haman. His pride leaves him grief-stricken and blind. His wife figures out what he cannot, that in standing against Mordecai and the Jews Haman is standing against God and cannot win."
+      }
+    ]
+  },{
+    "id": 10,
+    "path": "forsuchatimeasthis",
+    "title": "for such a time as this",
+    "book": "esther",
+    "verse": "esther 7:1-10",
+    "chapterFrom": 7,
+    "verseFrom": 1,
+    "chapterTo" : 7,
+    "verseTo": 10,
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+    "paragraph1": "While Haman is reeling from a punctured ego he is summoned to attend the second banquet set up by Queen Esther. Esther must now share her request with Xerxes in front of Haman. Remember that Esther’s circumstances have not changed. She has not been given greater freedom, or unlimited access to the king, or greater status; she has not been allowed to emerge from the managed isolation of her quarters. She does not know that Xerxes has had a sleepless night, and may not even know that Xerxes has forced Haman to honor Mordecai. As far as she knows Haman is as powerful as ever. It is remarkable that she has included Haman at the banquet. It would have been easier for Esther to have asked to speak to the king alone, outside of Haman’s presence, just as Haman sought to speak to Xerxes alone when he wanted to kill Mordecai. What Esther knows is that she has one moment in which to attempt to influence the king. Her courage, steadiness, humility, and wisdom are extraordinary; and a model for us in learning servant leadership.",
+    "quest1": "Just as we see the absence of God in Haman’s character, we see the presence of God in Esther’s character. What evidence do we see in chapter 7?",
+    "list1": [
+      {
+        "item":"Esther’s beginning language, as she makes her petition, is gentle and modest. She does not assert her identity or privilege as queen. Xerxes is a giant jerk, an impulsive cad, and a megalomaniac but Esther addresses him with profound respect and deference, just like Daniel did, and Joseph did. Her words are all about how the king feels,",
+        "quote": "“If I have found favor with you, O king, and if it pleases your majesty, grant me my life -- this is my petition.”",
+        "item2":"Esther is also fearless in identifying herself personally with the request. Her opening words proclaim,",
+        "quote2": "“Xerxes if you don’t grant this then I will die too.”"
+      },{
+        "bold": "",
+        "item":"Esther’s language is plain and truthful. In verse 4 her description of the deed to come “For I and my people have been sold for destruction and slaughter and annihilation…” mirrors the language of the decree drawn by Haman himself in Esther 3:13. Haman, who is sitting there, cannot object, because Esther is essentially quoting him. She also frames the dire nature of the situation for Xerxes, saying, ‘if this weren’t such a horrible thing, if it was only about further enslavement, I would not bother you with this.’  Notice too that Esther does not jump the gun. She does not start with accusation; she starts with an even-handed description of the issue; just like the prophet Nathan, when he confronted David about Bathsheba"
+      },{
+        "item":"Esther also demonstrates that she is a great leader. In this moment she is the Queen of her exiled people and has taken up their cause, at the highest level, when no one else can. God has indeed appointed her for this moment."
+      },{
+        "item": "We see Xerxes at full impulse. He has no recollection of the decree he’s signed against the Jews and demands to know “where is the man who has dared to do such a thing?”   We see several things here. Xerxes demonstrates the historic tendency of all autocrats to not take responsibility for their actions. He gave Haman his signet ring and his authorization but that is now conveniently forgotten. Also, kings, whether good or bad, tend to be notoriously busy and move on from past decisions to the next thing. Esther recognizes all this in how she frames her request."
+      },{
+        "bold": "",
+        "item": "Esther is observing the admonition found in Ephesians 4:29,",
+        "quote": "“Let no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that it may give grace to those who hear.”",
+        "item2":"Remarkably, even as she makes her petition, Esther is also giving grace to Xerxes. We also see something akin to the Holy Spirit at work in Esther, reflecting what Paul wrote in I Corinthians 12:7-9,",
+        "quote2": "“(7) The Holy Spirit is given to each of us in a special way. That is for the good of all. (8) To some people the Spirit gives a message of wisdom. To others the same Spirit gives a message of knowledge. (9) To others the same Spirit gives faith.”",
+        "item3": "We clearly see God at work in Esther, and Esther’s character becomes like God’s. She speaks with an inspiration, temperance, and self-abnegation that is beyond the reach of human action, and clearly within the realm of God."
+      }
+    ],
+    "paragraph2": "The rest of chapter 7 is dark. Esther accuses Haman – “the adversary and the enemy is this vile Haman” - and Xerxes has him executed on the very seven story gallows that Haman built for Mordecai.",
+    "quest2": "Some commentators say that Esther should have exercised more charity and mercy here, rather than accomplishing Haman’s execution. Do you agree? ",
+    "list2": [
+      {
+        "item":"Remember that Esther, like Mordecai, is from the tribe of Benjamin, which was also the tribe of King Saul, and that Saul lost his right of kingship because he disobeyed God’s command, shared through the prophet Samuel, to attack and exterminate the Amalekites and their king, Agag, who were devout enemies of Israel. Now a second monarch from the tribe of Benjamin faces a blood descendant of the Amalekites, whose evil malice in the service of Xerxes and threat to annihilate the exiled Jewish population is directly traceable to Saul’s disobedience. Esther will not make the same mistake."
+      },{
+        "item": "Haman is not repentant or regretful; verse 6 tells us that he was terrified and undone that Xerxes had turned against him. He begs Esther for his life, not for forgiveness. God knows Haman’s heart and is administering the justice that Haman deserves. As Paul wrote in Galatians 6: 7-8,",
+        "quote": "“Do not be deceived: God is not mocked, for whatever one sows, that will he also reap. 8 For the one who sows to his own flesh will from the flesh reap corruption, but the one who sows to the Spirit will from the Spirit reap eternal life.”"
+      },{
+        "item": "Remember that Haman still wears the king’s signet ring and carries the power of Xerxes wherever he goes. Given Xerxes’ distracted state, Haman could have fomented rebellion against Xerxes himself and then fulfilled his plan to exterminate the Jews. Esther cannot allow that possibility. In addition, the only way to counteract the original edict of extermination was to create a new edict that granted the Jews a greater right of self-defense that the original right to exterminate them. Haman’s power, which is in the service of evil, must end. Throughout scripture God makes clear that the wicked will receive his justice. Psalm 147: 5-6 says,",
+        "quote": "“Great is our Lord, and abundant in power; his understanding is beyond measure. (6) The LORD lifts up the humble; he casts the wicked to the ground”"
+      },{
+        "item": "Haman is literally clutching at Esther to beg for his life. When Xerxes returns from the palace garden he assumes that Haman is trying to rape Esther. By law no one was ever to be closer than seven steps from the king’s concubines. This would include the queen. This becomes the grounds for Xerxes’ first charge against Haman. The second charge arises when the eunuch Harbona notes that the 75 foot tall gallows was constructed by Haman to kill Mordecai, who has become a benefactor and favorite of the king. Plotting to kill Mordecai, now under the king’s protection, becomes treason and seals Haman’s execution. Haman’s own design becomes his undoing."
+      }
+    ]
+  },{
+    "id": 11,
+    "path": "atwarjewishexilessaved",
+    "title": "at war - the jewish exiles saved",
+    "book": "esther",
+    "verse": "esther 8:1-17",
+    "chapterFrom": 8,
+    "verseFrom": 1,
+    "chapterTo" : 8,
+    "verseTo": 17,
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+
+    "paragraph1": "Chapter 8 shows us that even with the execution of Haman the situation is still volatile and dangerous for Esther, Mordecai and the Jewish exiles. The matter is not closed; the end is not tidy and easily defined. Beginning in chapter 8 the dynamic is different. Esther has disclosed that she is a Jew and Mordecai has gained admission to the court and joined her, which means he is no longer wearing sackcloth and ashes. Esther’s position has changed somewhat. Xerxes has awarded her Haman’s vast estate, which means she now has land and tenants, and servants, and livestock in a number of the 127 provinces. Mordecai receives Xerxes’ signet ring which makes him the second most powerful man in the empire. Esther appoints Mordecai as master of Haman’s estate.",
+    "quest1": "Now that Esther and Mordecai have more power and resources what do they do?  Compare this to Haman’s behavior. Does Esther demonstrate any aspects of faith in God or is her approach simply one of worldly wisdom?",
+    "list1": [
+      {
+        "item":"All of Esther’s courage, energy, and focus is on saving the Jewish people. She falls at the king’s feet, weeping, and begging him to put an end to the evil plan of Haman the Agagite. First, this is uninvited because Xerxes extends his scepter to grant Esther clemency. Second, Esther has become very specific in identifying the nature of the plot. It’s evil and it’s from Haman the Agagite, descendant of Agag, king of the Amalekites, living only because Saul disobeyed God. Haman is the unrepentant foe of God, an enemy of the Israelites since Moses, and pure malice. Xerxes doesn’t understand this, but we can infer that Esther, by her description, does. The plan is evil on its own, but Esther’s words tell us that she is conscious of the greater history it represents. Jewish tradition says that Esther repeatedly recited Psalm 22 as she prayed, one of the psalms written by David, which begins:",
+        "quote": "“My God, my God, why have you forsaken me? Why are you so far from saving me, from the words of my groaning? (2) O my God, I cry by day, but you do not answer, and by night, but I find no rest. (3) Yet you are holy,  enthroned on the praises[a] of Israel. (4) In you our fathers trusted;  they trusted, and you delivered them. (5) To you they cried and were rescued; in you they trusted and were not put to shame.”"
+      },{
+        "item":"Her petition continues to be modest, extending grace and respect to Xerxes: and once again her plea is personal. If the Jewish people are not saved Esther cannot be saved either. Once again she makes this request without any assurance that Xerxes will agree. The evidence and the record show us that Esther is acting on faith even if God is not explicitly mentioned:  Hebrews 11:1-3 says,",
+        "quote": "“Now faith is the assurance of things hoped for, the conviction of things not seen. (2) For by it the people of old received their commendation. (3) By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.”",
+        "item2": "The selfless boldness of Esther’s requests, her complete honesty about her heritage and her feelings suggest to us that she is acting on faith in the way described in Hebrews 11."
+      },{
+        "item": "Xerxes is open to Esther’s further petition and suggests strong action. Haman’s original plan to exterminate the Jews becomes, in verse 7, the reason for Haman’s treason and subsequent execution, conveniently leaving Xerxes out of the original planning and approval process. Xerxes invites Esther and Mordecai to write a petition of their choosing to offset the earlier decree. They may seal it with the king’s signet ring meaning it will go out with the absolute, irrevocable power of Xerxes."
+      },{
+        "item": "The machinery of empire is now summoned to issue the second edict in the same way the first edict was drafted and shared in chapter 3. The first edict was issued by Haman on April 17, 474, the second edict was issued by Mordecai on June 25, 474, and the target date for both was March 7, 473; nearly a year later. The difference is that Esther and Mordecai issue an edict aimed solely at giving the Jews the right of self-defense against anyone who attacks them, in fulfillment of the first edict on the thirteenth day of the twelfth month, the month of Adar. Esther and Mordecai make certain that the edict is made fully public in every language and every province of the empire; so that everyone will know that the king does no longer stands with the first edict even though it cannot be revoked. It also gives the communities of Jewish exiles the reassurance that they may defend themselves and that they don’t stand alone."
+      },{
+        "item": "What is interesting is that neither Esther nor Mordecai seem to advance their own personal interests. The Jews are granted the right to plunder anyone who attacks them, but Esther and Mordecai don’t ask to share in this. Unlike Haman they don’t ask to destroy or eliminate any specific groups. They could have specifically asked for the deaths of all of Haman’s allies and family but they don’t."
+      },{
+        "item": "Mordecai goes out into public, allowing himself to be seen in the royal garments of blue and white, but this seems more in the nature of reassurance to the Jewish community and a warning to its enemies rather than any personal statement of power."
+      },{
+        "item": "The new edict and Mordecai’s show of finery cause the Jews, in verse 16, to experience a time of happiness, joy, gladness, and honor. There is celebration and even conversions to Judaism as others sense a new power and influence rising in the empire."
+      },{
+        "item": "Esther and Mordecai are not soft pushovers here, but they seem to be striving as best they can to save their people, and achieve peaceful reconciliation within the empire, without any further aggrandizement for themselves. They carve out for their people an absolute right to destroy any attackers and the households of those attackers, but they don’t have the right to initiate any attacks themselves. In this environment this is temperance and moderation. There are no assurances and little stability in the Persian Empire during the reign of Xerxes and it would be easy to grab all the power and you can and eliminate all the enemies who seem to pose a threat. Although God is not named it is clear that he is celebrated and that he is primary in the great deliverance that Esther, Mordecai, and the exiled Jews experience. The joy that is experienced is unified and broad, and it is a greater joy in recognizing both the source of deliverance (God) and the way to deliverance itself."
+      }
+    ]
+  },{
+    "id": 12,
+    "path": "warfareandtriumph",
+    "title": "warfare and triumph",
+    "book": "esther",
+    "verse": "esther 9:1-17",
+    "chapterFrom": 9,
+    "verseFrom": 1,
+    "chapterTo" : 9,
+    "verseTo": 17,
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "We get a strong sense of the division and volatility within the Persian Empire by the reaction to the two edicts. There is still a strong element across many of the 127 provinces that is committed to attacking the Jews despite the issuance of the second decree and the fall of Haman. These are probably allies who remain true to the power of Haman’s household, opportunists who want to seize additional wealth (plunder), and those who view this war of competing edicts as a referendum on the power of Xerxes and Mordecai. At this point in his reign Xerxes is not beloved by his people. His failed expeditions against the Greeks have resulted in catastrophic casualties, huge investments, near bankruptcy, and much higher taxes.",
+    "quest1": "Are the Jews excessive or vindictive in their response?",
+    "list1": [
+      {
+        "item":"Although there is some fuzziness in the language it is most likely that the Jews are attacking only those who attack them first."
+      },
+      {
+        "item":"The enemies arrayed against the Jews are seeking not simply to defeat or embarrass them, but to wipe them from the face of the earth. Part of the Jewish response is to simply ensure that the people seeking their annihilation aren’t around to do it again."
+      },{
+        "item":"Part of this battle is completing the holy war against the Amalekites; and in aid of this they kill the 10 sons of Haman who have taken up arms against them. Queen Esther requests that their dead bodies be put on public display (9:13) just like the bodies of King Saul and his sons were put on display by the Philistines at Beth-Shan."
+      },{
+        "item":"Esther’s request to extend the edict for one more day may seem blood thirsty or punitive but it’s really not. Many commentators view this as excessive vengeance or the triumph of blood lust but there are practical reasons for Esther to make her request. There is a pitched battle going on across the 127 provinces of the empire, and it will take more than one day to resolve. What is unspoken here is that the Jews must have suffered losses as well, even though permitted to take up arms in self-defense, and even though they have the support of Xerxes’ nobles, satraps, governor, and administrators. This is a messy moment and we can imagine that the enemies of the Jews are fighting as hard as they can to achieve the results promised in the first edict, and not the second."
+      },{
+        "item":"As Warren Wiersbe writes (Be Committed:  Doing God’s Will Whatever the Cost, David C. Cook, 1993, p. 180,",
+        "quote": "“The fear of God protects those who fear God and believe His promises. Because the Jews believed Mordecai’s decree, they had new courage and were not afraid of the enemy, and their courage put fear into the hearts of the enemy.”"
+      },{
+        "item":"Esther’s own actions state her confidence in God’s outworking in her world. Perhaps she is remembering verses from Psalm 22:",
+        "quote": "“(29) All the ends of the earth shall remember and turn to the LORD, and all the families of the nations shall worship before you. (28) For kingship belongs to the LORD, and he rules over the nations.”"
+      }
+    ],
+    "subtitle2": "Book of Esther:  A Hard Victory and a Profound Remembrance",
+    "paragraph2": "Haman and Xerxes’ first edict and the second correcting edict allowing the Jews to gather and defend themselves have resulted in a small scale war. Verse 16 of chapter 9 tells us that at the end of the fighting across the 127 provinces the Jews have killed 75,000 Persians in defending themselves. This does not count wounded or captured or calculate the number of Jews killed and wounded. This casualty level states a much larger number of Persians who joined in the attack against the Jews. It means that the Jews, in defending themselves, and even in having the help of the king’s administration, may still have been outnumbered in many instances. They fought across a vast territory and amidst a large foreign population mostly ambivalent and probably often unwilling to assist them. To frame this, Guinness world records says that 49 million of the world’s estimated 112 million people lived in the Persian Empire in 480 BC. Keep in mind that God does not deliver the Jews from conflict, but does enable them to enter the conflict and overcome.",
+    "paragraph2b": "Verses 15 and 16 also tells us that the Jews in Susa, and the Jews in the 127 provinces,  did not take any plunder from those they defeated. To not take the property of the defeated was to behave differently than every other people, nation, or culture at this time in history. Plunder was the accepted right of the victor, and a sensible practice at a time when resources were scarce and survival from year to year was a high risk proposition. Under the second edict the Jews were granted the right to take the property of those who attacked them.",
+    "quest2": "What does this refusal to take plunder tell us?",
+    "list2": [
+      {
+        "item":"This is affirmative proof that the Jews had not forgotten God; and that the Book of Esther does not simply offer a recounting of secular events."
+      },{
+        "bold": "",
+        "item":"It is very similar to Abraham’s decision to not take plunder after defeating Kedorlaomer and three other kings in rescuing Lot. In Genesis 14:22 Abram said,",
+        "quote": "“I have raised my hand to the LORD. God Most High, Creator of heaven and earth, and have taken an oath that I will accept nothing belonging to you, not even a thread or a thong of a sandal, so that you will never be able to say, ‘I made Abram rich.’”",
+        "item2":"After this fearless testimony, God comes to Abram in a vision, in Genesis 15:1, and says,",
+        "quote2": "“Don’t be afraid, Abram. I am your shield, and your great reward.”"
+      },{
+        "item":"So, by their actions rather than spoken words, the Jews were announcing to everyone around them that they looked to God and acknowledged him as the source of their deliverance and provision. They were expressing their confidence, that even in exile, God was with them and had not abandoned them. This decisive act of faith  must have spooked the Persians."
+      },{
+        "item":"It affirmed God’s view that this was a holy war, and not a regional conflict. It had further symbolism in correcting Saul’s error, long before the reign of Xerxes and the time of exile, in keeping plunder from the Amalekites when God told him not to."
+      }
+    ],
+    "paragraph3": "Following this conflict, and their deliverance the Jews paused and celebrated. In rural villages the conflict ended sooner than in the cities so the celebrations crossed over several days. What is interesting is that the Jews celebrated on their own. This was not commanded by God but was very much in keeping with his character in remembering and celebrating great moments of God’s faithfulness such as Passover",
+    "paragraph3b": "Mordecai observed this celebration and then formalized it in verses 20-22, with a letter sent to all the provinces, directing that all Jews celebrate this occasion each year, on the 14th and 15th day of Adar. This celebration became Purim, meaning ‘lot’ referencing Haman’s roll of the dice in Esther 3:7 to determine the day, month, and year in which the Jews were to be massacred.",
+    "paragraph3c": "Verse 29 tells us that Esther and Mordecai, together, write, with full authority, a second letter, confirming that Purim would always be celebrated as Mordecai directed in the first letter. This letter is described in verse 30 as “words of peace and truth.”",
+    "quest3": "What is the significance of Purim and what do we, as followers of Christ, learn from the Book of Esther?",
+    "list3": [
+      {
+        "item":"God uses the common, the ordinary, the imperfect, the dispossessed, the exiled, the weak, the poor, the endangered, the beleaguered, and the oppressed to accomplish his great and majestic purposes. This cannot be emphasized too strongly or repeated too often. Esther had great beauty and Mordecai was a low level court official but they did not have wealth, preference, or distinction in the Persian Empire. They were exiles, with no rights, subject to the rule of a vast empire. God uses this approach so often because the weak have no delusions about where deliverance and salvation come from. Think of Mordecai’s raw lament and unembarrassed display of weeping, sack cloth, and ashes. If we saw him coming down the street we would cross to the other side. David, even when he was king, knew about God’s love and great compassion for our weakness and infirmity. In Psalm 61 he wrote,",
+        "quote": "“Hear my cry, O God; listen to my prayer. From the ends of the earth I call to you, I call as my heart grows faint; lead me to the rock that is higher than I. For you have been my refuge, a strong tower against the foe.”",
+        "item2":"We must join Esther and Mordecai in looking up to God. Reach out to him when you are at lowest ebb. He will take hold and not let go."
+      },{
+        "item": "God enters history, he enters our daily lives, he enters into places that we view as dark and forbidden, nothing withstands him. The term ‘Purim’ really tells us that God’s power, and providential care for his people are greater than Haman’s power and greater than his cold casting of the dice. In Isaiah 45 God says",
+        "quote": "“I am the LORD, and there is no other. I form the light and create darkness; I bring prosperity and create disaster. I, the LORD, do all these things”",
+        "item2":"During the Holocaust Jews took great care to preserve and share the text of Esther; and to remember God’s actions in saving his people from extinction."
+      },{
+        "item": "Women stand equally with men before God and Christ; and God uses them powerfully in leading and accomplishing his work. God elevates Esther to a position of power and uses her to accomplish his greater purpose by making her a superlative, if flawed leader. By the end of chapter 9 Esther is called Queen Esther, daughter of Abihail, signifying that God has brought her to full maturity as both queen of Persia and queen of her people, the chosen people of God. She served God with courage, fierce persistence, humility, and wisdom greater than her soul; because she chose to trust God, and follow him rather than giving counsel to her fears. She kept God’s instruction in Isaiah 41:10,",
+        "quote": "“So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.”"
+      },{
+        "item": "Faith begins with each individual but is grounded in the community of believers in Christ which today is the Church. Esther and Mordecai worked together to address the challenges they faced. They didn’t abandon one another, resent one another, or betray one another. Esther put Mordecai forward at risk to her own reputation, and Mordecai was steadfast in putting his people first, and not seeking his own preferment. Mordecai also kept Esther informed when she has no other sources of outside information and reminded her of God’s greater purposes for her at the critical moment."
+      },{
+        "item": "Finally Esther reminds us that even when everything around us seems to degrade, devalue, mock, and override our very faith, and the very presence of God, He is still there, and we are his chosen people; inhabited by his divine majesty, mercy, wisdom, power, love, and grace. We may travel dark paths in the world but we are set apart as his children of light. As Peter wrote in I Peter 2:9",
+        "quote": "But you are a chosen peple a royal priesthood, a holy nation, a people belonging to God, that you may declare the praises of him who called you out of darkness into his wonderful light."
+      }
+    ],
+    "paragraph4": "So the end is not the end. The deliverance for the Jews occurs in 473 B.C. and Xerxes reign continues until August 465 B.C., eight years later, when Xerxes and his son Darius are assassinated by Artabanus, the leader of the king’s body guard, with the help of a eunuch Aspamitres. Artaxerxes, the third son of Xerxes, seized power by killing Artabanus.",
+    "paragraph4b": "In the Book of Ezra, Artaxerxes commissions Ezra, to take charge of Israel. Ezra returns to Israel in the seventh year of Artaxerxes reign. In the 20th year of Artaxerxes’ reign, Nehemiah is commissioned to return to Jerusalem to rebuild the walls of the city.",
+    "paragraph4c": "We don’t know Esther’s fate or journey. Some say that she was the mother of Darius II who became king after Artaxerxes. Some say that Esther is the queen mentioned in Nehemiah 2:6, sitting besides Artaxerxes in the 20th year of his reign. Some say she died when she was still young and others that she lived to an old age. We don’t know."
+  },{
+    "id": 13,
+    "path": "estherinreview",
+    "title": "esther in review",
+    "book": "esther",
+    "verse": "esther",
+    "chapterFrom": "",
+    "verseFrom":"",
+    "chapterTo" : "",
+    "verseTo": "",
+    "image": "https://mdl.artvee.com/sftb/301710rg.jpg",
+    "paragraph1": "Following two days of conflict and killing, and a hard won deliverance, the Jews paused and celebrated. In rural villages the conflict ended sooner than in the cities so the celebrations crossed over several days. What is interesting is that the Jews celebrated on their own. This was not commanded by God but was very much in keeping with his character in remembering and celebrating great moments of God’s faithfulness such as Passover. The conflict that the Jews must weather and the force with which they must strike back, even though accomplished in exile, foretells the struggle they will endure, and the enemies they will face in reestablishing the modern state of Israel.",
+    "paragraph1b": "Mordecai observed this celebration and then formalized it in verses 20-22, with a letter sent to all the provinces, directing that all Jews celebrate this occasion each year, on the 14th and 15th day of Adar. This celebration became Purim, meaning ‘lot’ referencing Haman’s roll of the dice in Esther 3:7 to determine the day, month, and year in which the Jews were to be massacred.",
+    "quest1": "What do we as the church of Christ celebrate and should we be better at remembering the extraordinary moments in our history?  And what would they be?",
+    "paragraph2": "Verse 29 tells us that Esther and Mordecai, together, write, with full authority, a second letter, confirming that Purim would always be celebrated as Mordecai directed in the first letter. This letter is described in verse 30 as “words of peace and truth.”",
+    "quest2": "What is the significance of Purim and what do we, as followers of Christ, learn from the Book of Esther?",
+    "list2": [
+      {
+        "bold": "",
+        "item":"",
+        "quote": "“”",
+        "item2":"",
+        "quote2": "“”"
+      },{
+        "item":"God uses the common, the ordinary, the imperfect, the dispossessed, the exiled, the weak, the poor, the endangered, the beleaguered, and the oppressed to accomplish his great and majestic purposes. This cannot be emphasized too strongly or repeated too often. Esther had great beauty and Mordecai was a low level court official but they did not have wealth, preference, or distinction in the Persian Empire. They were exiles, with no rights, subject to the rule of a vast empire. God uses this approach so often because the weak have no delusions about where deliverance and salvation come from. Think of Mordecai’s raw lament and unembarrassed display of weeping, sack cloth, and ashes. If we saw him coming down the street we would cross to the other side. David, even when he was king, knew about God’s love and great compassion for our weakness and infirmity. In Psalm 61 he wrote,",
+        "quote": "“Hear my cry, O God; listen to my prayer. From the ends of the earth I call to you, I call as my heart grows faint; lead me to the rock that is higher than I. For you have been my refuge, a strong tower against the foe.”",
+        "item2":"We must join Esther and Mordecai in looking up to God. Reach out to him when you are at lowest ebb. He will take hold and not let go."
+      },{
+        "item": "God enters history, he enters our daily lives, he enters into places that we view as dark and forbidden; nothing withstands him. The term ‘Purim’ really tells us that God’s power, and providential care for his people, are greater than Haman’s power and greater than his cold casting of the dice. In Isaiah 45 God says",
+        "quote": "“I am the LORD, and there is no other. I form the light and create darkness; I bring prosperity and create disaster. I, the LORD, do all these things”",
+        "item2": "During the Holocaust Jews took great care to preserve and share the text of Esther; and to remember God’s actions in saving his people from extinction."
+      },{
+        "bold": "",
+        "item":"Even when our primary experience and feeling leads us to despair and mourning before God; God is present and at work. Even when loss gives way to greater loss, God’s presiding is greater. Jewish tradition says that King David composed Psalm 22 with Esther in his prophetic view, and that Esther repeated Psalm 22 over and over during her time of trial. Psalm 22 is a powerful lament, and begins with haunting words,",
+        "quote": "“My God, my God, why have you forsaken me?  Why are you so far from the words of my groaning?  Oh my God, I cry out by day, but you do not answer, by night, and am not silent.”",
+        "item2":"The rejoicing of Purim is on the other side of this wrenching lament. And the memory of Purim becomes the small flame in the vast darkness of the Holocaust. In the same way the celebration of the greatness of Mordecai in chapter 10 is founded on the sack cloth and ashes that Mordecai wore in chapter 4. God is not interested in elevating the powerful and the sleekly successful; he seeks the broken and poor in spirit to accomplish his greatest works; those who cannot take one step without reaching out to God for steadying help."
+      },{
+        "item": "Women stand equally with men before God and Christ; and God uses them powerfully in leading and accomplishing his work. God elevates Esther to a position of power and uses her to accomplish his greater purpose by making her a superlative, if flawed leader. By the end of chapter 9 Esther is called Queen Esther, daughter of Abihail, signifying that God has brought her to full maturity as both queen of Persia and queen of her people, the chosen people of God. She served God with courage, fierce persistence, humility, and wisdom greater than her soul; because she chose to trust God, and follow him rather than giving counsel to her fears. She kept God’s instruction in Isaiah 41:10, ",
+        "quote": "“So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.”"
+      },{
+        "item": "Faith begins with each individual but is grounded in the community of believers in Christ, which today is the Church. Esther and Mordecai worked together to address the challenges they faced. They didn’t abandon one another, resent one another, or betray one another. Esther put Mordecai forward at risk to her own reputation, and Mordecai was steadfast in putting his people first, and not seeking his own preferment. Mordecai also kept Esther informed when she had no other sources of outside information and reminded her of God’s greater purposes for her at the critical moment."
+      },{
+        "item": "Finally Esther reminds us that even when everything around us seems to degrade, devalue, mock, and override our very faith, and the very presence of God, He is still there, and we are his chosen people; inhabited by his divine majesty, mercy, wisdom, power, love, and grace. We may travel dark paths in the world but we are set apart as his children of light. As Peter wrote in I Peter 2:9 ",
+        "quote": "“But you are a chosen people a royal priesthood, a holy nation, a people belonging to God, that you may declare the praises of him who called you out of darkness into his wonderful light.”",
+        "item2": "This is our identity in life and in death; and in the great eternal life to come."
+      }
+    ],
+    "paragraph3": "So the end is not the end. The deliverance for the Jews occurred in 473 B.C. and Xerxes reign continued until August 465 B.C., eight years later, when Xerxes and his son Darius were assassinated by Artabanus, the leader of the king’s body guard, with the help of a eunuch named Aspamitres. Artaxerxes, the third son of Xerxes, seized power by killing Artabanus, and became the next king.",
+    "paragraph3b": "In the Book of Ezra, Artaxerxes commissions Ezra, to take charge of Israel. Ezra returns to Israel in the seventh year of Artaxerxes’ reign. In the 20th year of Artaxerxes’ reign, Nehemiah is commissioned to return to Jerusalem to rebuild the walls of the city.",
+    "paragraph3c": "We don’t know the rest of Esther’s fate or journey. Some say that she was the mother of Darius II who became king after Artaxerxes. Some say that Esther is the queen mentioned in Nehemiah 2:6, sitting beside Artaxerxes in the 20th year of his reign; when he commissions Nehemiah to return to Jerusalem. Some say she died when she was still young and others that she lived to an old age. We don’t know. What we do know is that her life did not end with Purim, nor did it become easy or idyllic. God did not deliver her from challenge, or the fantastic corruption of the Persian Empire; but he did walk with her in all her trials, he did give her a life of extraordinary significance, even if she could not see it completely at the time, he did give her an identity that aligned with His own character, enabling her to act in ways beyond her capacity, and he did give her a profound cause to rejoice, so great that it endures to this day. Today, with the same power, love, majesty, mercy, and conviction, He reaches out to us. How will we respond?"
+  }
+]
