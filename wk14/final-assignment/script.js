@@ -24,7 +24,6 @@ const studies = {
       studies: []
     };
   },
-
   // filter studies by book, title, some content, and verse reference
   methods: {
     filterItems () {
@@ -33,23 +32,22 @@ const studies = {
       // process search input
       if (this.searchValue !== '' && this.searchValue) {
         tempStudies = tempStudies.filter((study) => {
-          return (study.book
+          return study.book
             .toUpperCase()
-            .includes(this.searchValue.toUpperCase())) +
-            (study.title
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase())) +
-            (study.paragraph1
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase())) +
-            (study.verse
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase()));
+            .includes(this.searchValue.toUpperCase()) +
+          study.title
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase()) +
+          study.paragraph1
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase()) +
+          study.verse
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase());
         });
       }
       return tempStudies;
     }
-
   },
 
   template: '#studies'
@@ -71,23 +69,22 @@ const study = {
       // process search input
       if (this.searchValue !== '' && this.searchValue) {
         tempStudies = tempStudies.filter((study) => {
-          return (study.book
+          return study.book
             .toUpperCase()
-            .includes(this.searchValue.toUpperCase())) +
-            (study.title
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase())) +
-            (study.paragraph1
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase())) +
-            (study.verse
-              .toUpperCase()
-              .includes(this.searchValue.toUpperCase()));
-        })
+            .includes(this.searchValue.toUpperCase()) +
+          study.title
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase()) +
+          study.paragraph1
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase()) +
+          study.verse
+            .toUpperCase()
+            .includes(this.searchValue.toUpperCase());
+        });
       }
-      return tempStudies
+      return tempStudies;
     }
-
   },
 
   // getting study book and path
